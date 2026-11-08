@@ -1,0 +1,30 @@
+name: align
+on:
+  workflow_dispatch:
+    inputs:
+      audio: {description: "wav yolu", required: true}
+      lines: {description: "cumleler | ile", required: true}
+      out: {description: "json yolu", required: true}
+      model: {description: "model (bos = avtomatik)", required: false, default: ""}
+permissions:
+  contents: write
+concurrency: align
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Align
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AUDIO: ${{ inputs.audio }}
+          LINES: ${{ inputs.lines }}
+          OUT: ${{ inputs.out }}
+          MODEL: ${{ inputs.model }}
+        run: python3 tools/align.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add voice
+          git diff --cached --quiet || git commit -m "align: ${{ inputs.out }}"
+          git pull --rebase && git push origin HEAD:main
