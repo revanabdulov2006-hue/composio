@@ -16,7 +16,7 @@ Fayl: `paylasim/novbe.json`. Media: `media` branch-ı, yol `media/<brend>/<tarix
   "ig_media_id": null, "permalink": null, "qeyd": ""
 }
 ```
-Media URL: `https://raw.githubusercontent.com/revanabdulov2006-hue/composio/media/<media>`
+`url` sahəsi (commit-SHA-lı raw link) Instagram-a verilən image_url/video_url-dir. Hazırlamanı `python3 paylasim/hazirla.py` edir.
 
 ## Formatlar (Instagram tələbi)
 - post: JPEG, 1080x1350 (4:5), ≤8 MB. PNG qəbul olunmur, JPEG-ə çevir.

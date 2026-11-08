@@ -12,32 +12,5 @@
       "ig_user_id": "29523120417305388"
     }
   },
-  "items": [
-    {
-      "id": "2026-01-01-ab-post1",
-      "nov": "post",
-      "media": "media/ab/2026-01-01/post1.jpg",
-      "caption": "Test caption\n\nikinci paraqraf",
-      "brend": "ab",
-      "tarix": "2026-01-01",
-      "slot": "14:00",
-      "status": "gozleyir",
-      "ig_media_id": null,
-      "permalink": null,
-      "qeyd": ""
-    },
-    {
-      "id": "2026-01-01-ab-story1",
-      "nov": "story",
-      "media": "media/ab/2026-01-01/story1.jpg",
-      "caption": "",
-      "brend": "ab",
-      "tarix": "2026-01-01",
-      "slot": "14:00",
-      "status": "gozleyir",
-      "ig_media_id": null,
-      "permalink": null,
-      "qeyd": ""
-    }
-  ]
+  "items": []
 }
