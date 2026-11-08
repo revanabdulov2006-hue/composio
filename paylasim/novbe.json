@@ -12,5 +12,20 @@
       "ig_user_id": "29523120417305388"
     }
   },
-  "items": []
+  "items": [
+    {
+      "id": "2026-11-08-yg-reel",
+      "nov": "reel",
+      "media": "media/yg/2026-11-08/reel.mp4",
+      "caption": "Eyni küçədə iki kafe. Eyni menyu, eyni qiymət ☕\n\nAmma birinə adam sığmır, o birində stullar boşdur.\n\nFərq qəhvədə deyil 🤷🏻‍♂️\n\nDolu kafenin müştərisi QR kodu bir dəfə skan edir və kafenin kartı birbaşa telefonuna düşür.\n\nHeç nə yükləmək lazım deyil 📱\n\nSonra müştəri kafenin yanından keçəndə telefonunda bildiriş çıxır.\n\nKafe özünü özü xatırladır, sən heç nə etmirsən ✅\n\nÜstəlik müştərilərinə birbaşa mesaj yaza bilirsən: yeni kampaniya, ad günü hədiyyəsi, \"bu gün 2x möhür\".\n\nAramızda qalsın, müştəri unutduğu yerə qayıtmır, xatırladığı yerə qayıdır 😉\n\nBu sistemin adı Yenə gəl.\n\nKafen üçün də quraq? Şərhlərə «KART» yaz 📲",
+      "url": "https://raw.githubusercontent.com/revanabdulov2006-hue/composio/50ad439c85f34fc250b02fecc1d76ebd890a54af/media/yg/2026-11-08/reel.mp4",
+      "brend": "yg",
+      "tarix": "2026-11-08",
+      "slot": "manual",
+      "status": "gozleyir",
+      "ig_media_id": null,
+      "permalink": null,
+      "qeyd": ""
+    }
+  ]
 }
