@@ -30,7 +30,12 @@ prompt = ("This audio is an Azerbaijani voiceover. It contains exactly these lin
           "start = first audible sound of the line, end = last audible sound.")
 body = {"contents": [{"parts": [{"inlineData": {"mimeType": "audio/wav", "data": audio}}, {"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
-res = call("POST", f"/models/{model}:generateContent", body)
+import time
+res = None
+for k in range(6):
+    res = call("POST", f"/models/{model}:generateContent", body)
+    if res: break
+    time.sleep(10 * (k + 1)); print("retry", k + 1)
 if not res: sys.exit(1)
 txt = "".join(p.get("text", "") for p in res["candidates"][0]["content"]["parts"])
 data = json.loads(txt)
