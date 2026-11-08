@@ -1,0 +1,34 @@
+name: tts
+on:
+  workflow_dispatch:
+    inputs:
+      text:   {description: "Text to speak (empty = only list stored voices)", required: false, default: ""}
+      voice:  {description: "Voice display name (Bodi / Kira) or prebuilt voice", required: false, default: "Bodi"}
+      out:    {description: "Output wav path", required: false, default: "voice/out.wav"}
+      style:  {description: "Optional style instruction", required: false, default: ""}
+      model:  {description: "TTS model", required: false, default: "gemini-3.8-flash-tts"}
+permissions:
+  contents: write
+concurrency: tts
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TEXT: ${{ inputs.text }}
+          VOICE: ${{ inputs.voice }}
+          OUT: ${{ inputs.out }}
+          STYLE: ${{ inputs.style }}
+          MODEL: ${{ inputs.model }}
+        run: python3 tools/tts.py
+      - name: Commit result
+        run: |
+          git config user.name "tts-bot"
+          git config user.email "tts-bot@users.noreply.github.com"
+          git add voice
+          git diff --cached --quiet || git commit -m "tts: ${{ inputs.out }}"
+          git pull --rebase -q origin main || true
+          git push -q origin HEAD:main
