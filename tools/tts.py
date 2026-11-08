@@ -18,12 +18,15 @@ def call(method, path, body=None):
         sys.exit("HTTP %s on %s %s: %s" % (e.code, method, path, e.read().decode()[:600]))
 
 def list_voices():
-    out, tok = [], ""
+    out, tok, page = [], "", 0
     while True:
         d = call("GET", "/voices?pageSize=100" + ("&pageToken=" + tok if tok else ""))
+        if page == 0:
+            print("list response keys:", sorted(d.keys()))
         out += d.get("voices", [])
-        tok = d.get("nextPageToken", "")
-        if not tok:
+        tok = d.get("nextPageToken") or d.get("next_page_token") or ""
+        page += 1
+        if not tok or page > 60:
             return out
 
 def name_of(v):
@@ -34,15 +37,17 @@ def main():
     style, model = os.environ.get("STYLE", ""), os.environ.get("MODEL", "gemini-3.8-flash-tts")
     voices = list_voices()
     os.makedirs("voice", exist_ok=True)
-    json.dump([{"name": name_of(v), "id": v.get("id") or v.get("name")} for v in voices],
-              open("voice/voices.json", "w"), ensure_ascii=False, indent=1)
-    print("stored voices:", [name_of(v) for v in voices])
+    slim = [{k: x for k, x in v.items() if k not in ("sample_audio", "sampleAudio")} for v in voices]
+    json.dump(slim, open("voice/voices.json", "w"), ensure_ascii=False, indent=1)
+    print("voice count:", len(voices))
+    q = os.environ.get("VOICE", "").strip().lower()
+    print("names containing query:", [name_of(v) for v in voices if q and q in name_of(v).lower()])
     if not text.strip():
         return
     match = [v for v in voices if name_of(v).strip().lower() == voice.strip().lower()]
-    vid = (match[0].get("id") or match[0].get("name")) if match else voice  # fallback: prebuilt voice name
+    vid = (match[0].get("id") or match[0].get("name")) if match else voice
     if not match:
-        print("custom voice not found, using value as prebuilt voice name:", voice)
+        sys.exit("voice '%s' not found among %d stored voices (see voice/voices.json)" % (voice, len(voices)))
     prompt = (style.strip() + ": " if style.strip() else "") + text
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseModalities": ["AUDIO"],
