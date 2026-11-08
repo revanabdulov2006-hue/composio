@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#fff}#r{width:1080px;height:1920px;transform:scale(.5);transform-origin:0 0}</style></head><body><div id="r"></div><script type="module">
+import {sahne} from './kit/kadr.js'; import {ravan,ekspeditor,sahibkar,kofeshop} from './kit/komanda.js';
+const S=sahne(document.getElementById('r'),{arxa:'#f3f1ec',vignette:0,qrein:0});
+const a=ravan(),b=ravan(),c=sahibkar(),d=ekspeditor();[a,b,c,d].forEach(x=>S.qat.on.appendChild(x.g));
+a.yeri(0.25,{x:150,y:1560,hiz:2}); a.ifade({gulus:0.4});
+b.poz({x:410,y:1560,kolR:[150,25],elR:'acik',kolL:[4,8],basEg:0.1,t:1.2,danis:1}); b.ifade({gulus:0.8,qas:0.6});
+c.poz({x:670,y:1560,kolL:[20,100],kolR:[20,100],elL:'yumruq',elR:'yumruq',basEg:-0.15,basDon:-0.6}); c.ifade({gulus:-0.7,egim:0.8,qas:-0.3});
+d.poz({x:930,y:1560,kolR:[60,40],elR:'isare',basDon:0.6,t:0.4,danis:1}); d.ifade({gulus:0.2,qas:0.8,baxis:[1,0]});
+window.__bitdi=true;</script></body></html>

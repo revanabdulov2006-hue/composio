@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#fff}#r{width:1080px;height:1920px;transform:scale(.5);transform-origin:0 0}</style></head><body><div id="r"></div><script type="module">
+import {sahne} from './kit/kadr.js'; import {ravan,sahibkar,kofeshop,ekspeditor} from './kit/komanda.js';
+const S=sahne(document.getElementById('r'),{arxa:'#f3f1ec',vignette:0,qrein:0});
+const L=[ravan(),sahibkar(),kofeshop(),ekspeditor()];
+const P=[{elL:'acik',elR:['tutma','telefon'],kolR:[12,150]},{elL:['tutma','bloknot'],elR:['tutma','qelem'],kolL:[12,150],kolR:[8,140]},{elL:['tutma','fincan'],elR:'acik',kolL:[12,150]},{elL:['tutma','qovluq'],elR:['tutma','karton'],kolL:[12,148],kolR:[22,70]}];
+L.forEach((c,i)=>{S.qat.on.appendChild(c.g); c.ifade({gulus:0.75,ac:0.15}); c.poz({x:150+i*260,y:1560,...P[i]});});
+window.__bitdi=true;</script></body></html>

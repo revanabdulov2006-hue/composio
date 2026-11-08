@@ -1,0 +1,13 @@
+{
+ "baslik": "Bu səhnə sənə\n[tanış] gəlir?",
+ "vurgu": "#7BD86A",
+ "kart": {"soru": "Borcların hələ də dəftərdədir?"},
+ "cumleler": [
+  {"baslik": true, "metin": "Bu səhnə sənə tanış gəlir?", "plan": "giris", "nefes": 0.4},
+  {"metin": "Tədarükçü gəldi. Borc min səkkiz yüz qırx manatdır.", "plan": "giris"},
+  {"metin": "Sahibkar dəftəri açıb hesablayır. Rəqəm düz gəlmir.", "plan": "say"},
+  {"metin": "Bir qəbz itib. Dəftərdə isə yazılmayıb.", "plan": "say"},
+  {"metin": "Bəs sən borcları necə izləyirsən?", "plan": "hell", "gecis": "beyaz"},
+  {"metin": "Borcların hələ də dəftərdədir?", "plan": "kart", "kart": true, "nefes": 3}
+ ]
+}

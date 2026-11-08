@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="az"><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#1c1714}
+#v{position:relative;width:1080px;height:1920px;overflow:hidden;background:radial-gradient(120% 70% at 50% 38%,#2b2621 0%,#1c1714 70%)}
+.grid{position:absolute;inset:-200px;background-image:linear-gradient(rgba(250,245,239,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(250,245,239,.035) 1px,transparent 1px);background-size:72px 72px}
+.orb{position:absolute;border-radius:50%;filter:blur(120px)}
+.sc{position:absolute;inset:0;will-change:transform,opacity,filter}
+.lab{font-family:Jakarta;font-weight:700;font-size:30px;letter-spacing:.22em;text-transform:uppercase;color:#e8703a}
+.pay{font-family:Fraunces;font-weight:300;color:#faf5ef;letter-spacing:-.025em;line-height:.98;font-variation-settings:"opsz" 144}
+.pay b{font-weight:900}
+.pay i{font-style:italic;font-weight:900;color:#e8703a}
+.ink .pay{color:#1c1917}.ink .pay i{color:#c2410c}.ink .lab{color:#c2410c}
+.w{display:inline-block;will-change:transform,opacity,filter}
+.center{position:absolute;left:0;right:0;text-align:center}
+.pill{display:inline-flex;align-items:center;gap:18px;padding:22px 38px;border-radius:999px;font-family:Jakarta;font-weight:700;font-size:34px}
+/* phone screen */
+.scr{position:absolute;left:0;top:0;width:900px;height:1903px;transform-origin:0 0;border-radius:112px;overflow:hidden}
+.island{position:absolute;left:325px;top:36px;width:250px;height:74px;border-radius:40px;background:#050505;z-index:20}
+.ui{font-family:Jakarta}
+</style></head><body>
+<div id="v">
+ <div class="grid" id="grid"></div>
+ <div class="orb" id="orb1" style="width:900px;height:900px;left:90px;top:300px;background:#c2410c;opacity:.30"></div>
+ <div class="orb" id="orb2" style="width:600px;height:600px;left:600px;top:1300px;background:#d97706;opacity:.12"></div>
+
+ <!-- A: iki kafe -->
+ <div class="sc" id="sA">
+  <div class="center" style="top:250px"><div class="lab" id="aLab">Eyni küçə</div></div>
+  <div class="center pay" style="top:330px;font-size:124px" id="aT1"><span class="w">İki</span> <span class="w"><b>kafe.</b></span></div>
+  <div class="center pay" style="top:330px;font-size:112px" id="aT2"><span class="w">Eyni</span> <span class="w"><b>menyu.</b></span><br><span class="w">Eyni</span> <span class="w"><b>qiymət.</b></span></div>
+  <div class="center pay" style="top:330px;font-size:118px" id="aT3"><span class="w">Biri</span> <span class="w">həmişə</span><br><span class="w"><i>doludur.</i></span></div>
+  <svg id="street" width="1080" height="760" viewBox="0 0 1080 760" style="position:absolute;left:0;top:640px">
+   <defs>
+    <linearGradient id="warm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb877"/><stop offset="1" stop-color="#e8703a"/></linearGradient>
+    <radialGradient id="spill" cx=".5" cy=".2" r=".8"><stop offset="0" stop-color="#e8703a" stop-opacity=".55"/><stop offset="1" stop-color="#e8703a" stop-opacity="0"/></radialGradient>
+   </defs>
+   <line x1="20" y1="560" x2="1060" y2="560" stroke="#faf5ef" stroke-opacity=".25" stroke-width="3"/>
+   <g id="cafeL" transform="translate(70,90)"></g>
+   <g id="cafeR" transform="translate(570,90)"></g>
+  </svg>
+  <div id="menus" style="position:absolute;left:0;top:1330px;width:1080px;height:420px">
+   <div class="menu" id="mL" style="position:absolute;left:105px;top:0"></div>
+   <div id="eq" style="position:absolute;left:490px;top:120px;width:100px;text-align:center;font-family:Fraunces;font-weight:900;font-size:110px;color:#e8703a">=</div>
+   <div class="menu" id="mR" style="position:absolute;left:605px;top:0"></div>
+  </div>
+ </div>
+
+ <!-- B: niye / sistem -->
+ <div class="sc" id="sB">
+  <div class="center" style="top:640px"><div class="lab" id="bLab">Sual</div></div>
+  <div class="center pay" style="top:730px;font-size:170px" id="bT1"><span class="w">Bilirsən</span><br><span class="w"><i>niyə?</i></span></div>
+  <div class="center pay" style="top:700px;font-size:150px" id="bT2"><span class="w">Çünki</span> <span class="w">onun</span><br><span class="w" id="sistW" style="position:relative"><span id="mark" style="position:absolute;left:-14px;right:-14px;bottom:18px;height:46px;background:#c2410c;opacity:.85;transform-origin:0 50%;z-index:-1;border-radius:6px"></span><b>sistemi</b></span> <span class="w">var.</span></div>
+ </div>
+
+ <!-- PH: telefon (foto mockup) -->
+ <div class="sc ink" id="sP">
+  <div id="phWrap" style="position:absolute;left:-172px;top:0;width:1424px;height:1920px;transform-origin:735px 940px">
+   <img src="mock/4.jpg" style="position:absolute;left:0;top:0;width:1424px">
+   <div id="warmth" style="position:absolute;inset:0;background:linear-gradient(180deg,#f6e7d5 0%,#efdcc6 100%);mix-blend-mode:multiply;opacity:.9"></div>
+   <div class="scr" id="scr">
+    <!-- 1 skan -->
+    <div id="sc1" style="position:absolute;inset:0;background:radial-gradient(90% 60% at 50% 45%,#5a4a3e,#1e1814)">
+     <div style="position:absolute;inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.03) 0 40px,transparent 40px 90px)"></div>
+     <div class="ui" style="position:absolute;top:150px;width:100%;text-align:center;color:#faf5ef;font-weight:700;font-size:40px;opacity:.9">QR kodu kameraya tut</div>
+     <div id="qrBox" style="position:absolute;left:150px;top:520px;width:600px;height:600px;border-radius:44px;background:#fffdfa;padding:70px;box-shadow:0 30px 80px rgba(0,0,0,.45)">
+      <img src="qr.svg" style="width:100%;height:100%">
+     </div>
+     <svg style="position:absolute;left:110px;top:480px" width="680" height="680" viewBox="0 0 680 680" fill="none" stroke="#e8703a" stroke-width="14" stroke-linecap="round"><path d="M10 120V40a30 30 0 0 1 30-30h80M560 10h80a30 30 0 0 1 30 30v80M670 560v80a30 30 0 0 1-30 30h-80M120 670H40a30 30 0 0 1-30-30v-80"/></svg>
+     <div id="scanL" style="position:absolute;left:130px;width:640px;height:8px;border-radius:8px;background:#e8703a;box-shadow:0 0 40px 10px rgba(232,112,58,.6)"></div>
+     <div id="qrPop" class="ui" style="position:absolute;left:90px;right:90px;top:1270px;padding:34px 40px;border-radius:40px;background:rgba(250,245,239,.95);display:flex;gap:28px;align-items:center;box-shadow:0 20px 60px rgba(0,0,0,.35)">
+      <img src="img/logo-seffaf.png" style="width:96px;height:96px;border-radius:24px;background:#fff">
+      <div><div style="font-weight:800;font-size:38px;color:#1c1917">Kafe B kartını aç</div><div style="font-weight:600;font-size:30px;color:#847c70;margin-top:6px">yenegel.app</div></div>
+     </div>
+    </div>
+    <!-- 2 kart -->
+    <div id="sc2" style="position:absolute;inset:0;background:#fbf8f2">
+     <div class="ui" style="position:absolute;top:170px;left:70px;font-weight:800;font-size:56px;color:#1c1917">Kartlarım</div>
+     <div id="card" style="position:absolute;left:60px;top:300px;width:780px;height:500px;border-radius:44px;background:linear-gradient(140deg,#d4541c,#9a3412);box-shadow:0 40px 90px rgba(154,52,18,.45);padding:50px;color:#fff7ee">
+      <div style="display:flex;justify-content:space-between;align-items:center"><div style="font-family:Fraunces;font-weight:900;font-size:64px">Kafe B</div><img src="img/logo-seffaf.png" style="width:90px;height:90px;background:#fffdfa;border-radius:22px;padding:6px"></div>
+      <div class="ui" style="font-weight:700;font-size:28px;letter-spacing:.18em;opacity:.8;margin-top:8px">MÖHÜR KARTI</div>
+      <div id="stamps" style="display:flex;gap:22px;margin-top:70px"></div>
+      <div class="ui" style="font-weight:600;font-size:30px;margin-top:40px;opacity:.9">6 möhür = 1 hədiyyə qəhvə</div>
+     </div>
+     <div id="added" class="ui" style="position:absolute;left:60px;right:60px;top:880px;padding:34px;border-radius:34px;background:#fffdfa;border:2px solid #ece3d4;display:flex;gap:24px;align-items:center">
+      <div style="width:70px;height:70px;border-radius:50%;background:#15803d;display:grid;place-items:center"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+      <div><div style="font-weight:800;font-size:36px;color:#1c1917">Telefona əlavə olundu</div><div style="font-weight:600;font-size:28px;color:#847c70;margin-top:4px">Tətbiq yükləmədən</div></div>
+     </div>
+     
+    </div>
+    <!-- 3 kilid ekrani -->
+    <div id="sc3" style="position:absolute;inset:0;background:radial-gradient(110% 70% at 30% 20%,#7a3a1c 0%,#2b1a12 55%,#120c09 100%)">
+     <div style="position:absolute;width:700px;height:700px;left:350px;top:900px;border-radius:50%;background:#e8703a;filter:blur(160px);opacity:.35"></div>
+     <div class="ui" style="position:absolute;top:190px;width:100%;text-align:center;color:#faf5ef;font-weight:600;font-size:36px;opacity:.85">Bazar, 8 noyabr</div>
+     <div style="position:absolute;top:230px;width:100%;text-align:center;color:#faf5ef;font-family:Jakarta;font-weight:600;font-size:250px;letter-spacing:-.04em">09:41</div>
+     <div id="notif" class="ui" style="position:absolute;left:44px;right:44px;top:640px;padding:34px 36px;border-radius:46px;background:rgba(250,245,239,.82);backdrop-filter:blur(30px);display:flex;gap:26px;box-shadow:0 30px 70px rgba(0,0,0,.35)">
+      <img src="img/logo-seffaf.png" style="width:96px;height:96px;border-radius:24px;background:#fff;flex:none">
+      <div style="flex:1"><div style="display:flex;justify-content:space-between"><div style="font-weight:800;font-size:32px;color:#1c1917">Kafe B</div><div style="font-weight:600;font-size:28px;color:#57534e">indi</div></div>
+      <div style="font-weight:600;font-size:33px;color:#1c1917;margin-top:8px;line-height:1.3">Yaxınlıqdasan. Kartında 4/6 möhür var — hədiyyəyə 2 qəhvə qalıb.</div></div>
+     </div>
+     <div id="notif2" class="ui" style="position:absolute;left:44px;right:44px;top:640px;padding:34px 36px;border-radius:46px;background:rgba(250,245,239,.82);display:flex;gap:26px;box-shadow:0 30px 70px rgba(0,0,0,.35)">
+      <img src="img/logo-seffaf.png" style="width:96px;height:96px;border-radius:24px;background:#fff;flex:none">
+      <div style="flex:1"><div style="display:flex;justify-content:space-between"><div style="font-weight:800;font-size:32px;color:#1c1917">Kafe B</div><div style="font-weight:600;font-size:28px;color:#57534e">indi</div></div>
+      <div style="font-weight:600;font-size:33px;color:#1c1917;margin-top:8px;line-height:1.3">Bu gün 15:00–17:00 arası hər qəhvəyə 2x möhür.</div></div>
+     </div>
+     <div id="notif3" class="ui" style="position:absolute;left:44px;right:44px;top:640px;padding:34px 36px;border-radius:46px;background:rgba(250,245,239,.82);display:flex;gap:26px;box-shadow:0 30px 70px rgba(0,0,0,.35)">
+      <img src="img/logo-seffaf.png" style="width:96px;height:96px;border-radius:24px;background:#fff;flex:none">
+      <div style="flex:1"><div style="display:flex;justify-content:space-between"><div style="font-weight:800;font-size:32px;color:#1c1917">Kafe B</div><div style="font-weight:600;font-size:28px;color:#57534e">indi</div></div>
+      <div style="font-weight:600;font-size:33px;color:#1c1917;margin-top:8px;line-height:1.3">Ad günün mübarək! Hədiyyə qəhvən hazırdır.</div></div>
+     </div>
+    </div>
+    <div class="island"></div>
+   </div>
+  </div>
+  <div class="center" style="top:105px"><div class="lab" id="pLab"></div></div>
+  <div class="center pay" style="top:160px;font-size:84px" id="pT"></div>
+ </div>
+
+ <!-- D: yukleme yoxdur -->
+ <div class="sc" id="sD">
+  <div id="dlIcon" style="position:absolute;left:390px;top:520px;width:300px;height:300px;border-radius:80px;background:rgba(250,245,239,.06);border:2px solid rgba(250,245,239,.14);display:grid;place-items:center">
+   <svg width="170" height="170" viewBox="0 0 24 24" fill="none" stroke="#faf5ef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></svg>
+   <svg id="strike" style="position:absolute;inset:0" width="300" height="300" viewBox="0 0 300 300"><line x1="60" y1="240" x2="240" y2="60" stroke="#e8703a" stroke-width="16" stroke-linecap="round" stroke-dasharray="260" stroke-dashoffset="260"/></svg>
+  </div>
+  <div class="center" style="top:930px"><div class="lab">Tətbiqsiz</div></div>
+  <div class="center pay" style="top:1010px;font-size:130px" id="dT"><span class="w">Heç nə</span><br><span class="w"><i>yükləmə.</i></span></div>
+ </div>
+
+ <!-- E: xerite -->
+ <div class="sc" id="sE">
+  <div class="center" style="top:250px"><div class="lab">Yaxınlıqda</div></div>
+  <div class="center pay" style="top:330px;font-size:104px" id="eT"><span class="w">Kafenin</span> <span class="w">yanından</span><br><span class="w"><i>keçəndə...</i></span></div>
+  <svg id="map" width="1080" height="1100" viewBox="0 0 1080 1100" style="position:absolute;left:0;top:720px">
+   <g stroke="#faf5ef" stroke-opacity=".12" stroke-width="44" stroke-linecap="round" fill="none">
+    <path d="M-50 640H1130"/><path d="M330 -50V1150"/><path d="M800 -50V1150"/><path d="M-50 250L1130 120"/><path d="M-50 980H1130"/>
+   </g>
+   <g stroke="#faf5ef" stroke-opacity=".05" stroke-width="2" fill="none"><path d="M560 -50V1150M-50 420H1130M-50 820H1130M120 -50V1150"/></g>
+   <circle id="ring1" cx="800" cy="640" r="120" fill="#e8703a" fill-opacity=".10" stroke="#e8703a" stroke-opacity=".6" stroke-width="3"/>
+   <circle id="ring2" cx="800" cy="640" r="120" fill="none" stroke="#e8703a" stroke-width="3"/>
+   <circle id="ring3" cx="800" cy="640" r="120" fill="none" stroke="#e8703a" stroke-width="3"/>
+   <g id="pin" transform="translate(800,640)"><circle r="62" fill="#c2410c"/><circle r="62" fill="none" stroke="#faf5ef" stroke-width="6"/><path d="M-22 -14h34v18a17 17 0 0 1-34 0z M12 -6h8a8 8 0 0 1 0 16h-8" fill="none" stroke="#faf5ef" stroke-width="6" stroke-linejoin="round"/><text y="112" text-anchor="middle" font-family="Jakarta" font-weight="800" font-size="34" fill="#faf5ef">Kafe B</text></g>
+   <g id="me"><circle r="44" fill="#faf5ef" fill-opacity=".18"/><circle r="22" fill="#faf5ef"/><circle r="22" fill="none" stroke="#1c1714" stroke-width="5"/></g>
+  </svg>
+ </div>
+
+ <!-- H: logo -->
+ <div class="sc" id="sH">
+  <div id="logoGlow" style="position:absolute;left:240px;top:420px;width:600px;height:600px;border-radius:50%;background:#e8703a;filter:blur(140px);opacity:.45"></div>
+  <img id="logo" src="img/logo-seffaf.png" style="position:absolute;left:240px;top:400px;width:600px;height:600px">
+  <div class="center" style="top:1060px"><div class="lab">Sistemin adı</div></div>
+  <div class="center pay" style="top:1140px;font-size:170px" id="hT"><span class="w"><b>Yenə</b></span> <span class="w"><i>gəl</i></span></div>
+  <div class="center" style="top:1370px"><span class="pill" id="hChip" style="background:rgba(250,245,239,.07);border:2px solid rgba(250,245,239,.16);color:#faf5ef">yenegel.app</span></div>
+ </div>
+
+ <!-- I: hansi kafe -->
+ <div class="sc" id="sI">
+  <div class="center" style="top:250px"><div class="lab">Bəs sən?</div></div>
+  <div class="center pay" style="top:330px;font-size:112px" id="iT"><span class="w">Hansı</span> <span class="w">kafenin</span><br><span class="w"><i>sahibi</i></span> <span class="w">olardın?</span></div>
+  <svg id="street2" width="1080" height="760" viewBox="0 0 1080 760" style="position:absolute;left:0;top:700px">
+   <line x1="20" y1="560" x2="1060" y2="560" stroke="#faf5ef" stroke-opacity=".25" stroke-width="3"/>
+   <g id="cafeL2" transform="translate(70,90)"></g>
+   <g id="cafeR2" transform="translate(570,90)"></g>
+  </svg>
+  <div id="tagL" class="pill" style="position:absolute;left:150px;top:1420px;font-size:30px;padding:16px 30px;background:rgba(250,245,239,.06);color:#847c70;border:2px solid rgba(250,245,239,.1)">Sistemsiz</div>
+  <div id="tagR" class="pill" style="position:absolute;left:640px;top:1420px;font-size:30px;padding:16px 30px;background:#c2410c;color:#faf5ef">Yenə gəl ilə</div>
+ </div>
+
+ <!-- J: CTA -->
+ <div class="sc" id="sJ">
+  <div class="center" style="top:420px"><div class="lab">Şərhlərə yaz</div></div>
+  <div id="stamp" style="position:absolute;left:170px;top:560px;width:740px;height:360px;border:16px solid #e8703a;border-radius:46px;display:grid;place-items:center;transform:rotate(-6deg)">
+   <div style="font-family:Fraunces;font-weight:900;font-size:250px;color:#e8703a;letter-spacing:.02em;line-height:1">KART</div>
+  </div>
+  <div class="center pay" style="top:1030px;font-size:92px" id="jT"><span class="w">Sənin üçün də</span><br><span class="w"><i>quraq.</i></span></div>
+  <div id="jFoot" style="position:absolute;left:0;right:0;top:1360px;display:flex;justify-content:center;align-items:center;gap:26px">
+   <img src="img/logo-seffaf.png" style="width:120px;height:120px">
+   <span class="pill" style="background:rgba(250,245,239,.07);border:2px solid rgba(250,245,239,.16);color:#faf5ef">yenegel.app</span>
+  </div>
+ </div>
+
+ <div id="flash" style="position:absolute;inset:0;background:radial-gradient(60% 40% at 50% 50%,rgba(255,190,120,.55),rgba(232,112,58,0));opacity:0;mix-blend-mode:screen;pointer-events:none"></div>
+</div>
+
+<script>
+const T=__TIMES__;
+const S=i=>T[i-1][0], EN=i=>T[i-1][1];
+const END=__END__;
+const cl=x=>Math.max(0,Math.min(1,x));
+const pr=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,4);                 // ~cubic-bezier(.16,1,.3,1)
+const eio=x=>x<.5?8*x*x*x*x:1-Math.pow(-2*x+2,4)/2;
+const back=x=>{const c=1.7,c3=c+1;return 1+c3*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,x)=>a+(b-a)*x;
+const $=id=>document.getElementById(id);
+
+/* ---------- builders ---------- */
+function cafe(g,id){
+ g.innerHTML=`
+ <rect x="0" y="120" width="440" height="350" rx="10" fill="#2a231e" stroke="#faf5ef" stroke-opacity=".35" stroke-width="3"/>
+ <rect x="30" y="60" width="380" height="70" rx="14" fill="#231d19" stroke="#faf5ef" stroke-opacity=".35" stroke-width="3"/>
+ <text x="220" y="108" text-anchor="middle" font-family="Fraunces" font-weight="900" font-size="40" fill="#faf5ef" fill-opacity=".9" letter-spacing="2">KAFE ${id}</text>
+ <g id="awn${id}">${[0,1,2,3,4,5,6,7].map(k=>`<path d="M${-10+k*57.5} 150h57.5v40a28.75 28.75 0 0 1-57.5 0z" fill="${k%2?'#faf5ef':'#3a302a'}" fill-opacity="${k%2?.22:1}" stroke="#faf5ef" stroke-opacity=".3" stroke-width="2"/>`).join('')}</g>
+ <rect id="win${id}" x="36" y="240" width="230" height="200" rx="10" fill="#14100d" stroke="#faf5ef" stroke-opacity=".3" stroke-width="3"/>
+ <rect id="glow${id}" x="36" y="240" width="230" height="200" rx="10" fill="url(#warm)" opacity="0"/>
+ <g id="ppl${id}" opacity="0">${[[80,1],[140,.9],[205,1.05],[110,.8],[235,.85]].map(([x,s],k)=>`<g transform="translate(${x},${k<3?440:440}) scale(${s})"><circle cx="0" cy="-118" r="22" fill="#3b1a0b"/><path d="M-34 0v-46a34 34 0 0 1 68 0v46z" fill="#3b1a0b"/></g>`).join('')}</g>
+ <rect x="300" y="250" width="110" height="220" rx="8" fill="#14100d" stroke="#faf5ef" stroke-opacity=".3" stroke-width="3"/>
+ <rect id="door${id}" x="300" y="250" width="110" height="220" rx="8" fill="url(#warm)" opacity="0"/>
+ <circle cx="390" cy="365" r="6" fill="#faf5ef" fill-opacity=".5"/>
+ <ellipse id="spill${id}" cx="220" cy="480" rx="300" ry="60" fill="url(#spill)" opacity="0"/>
+ <g id="steam${id}" opacity="0" fill="none" stroke="#faf5ef" stroke-width="5" stroke-linecap="round"><path d="M180 40c-14-18 14-26 0-46"/><path d="M220 36c-14-18 14-26 0-46"/><path d="M260 40c-14-18 14-26 0-46"/></g>`;
+}
+['L','R'].forEach(s=>cafe($('cafe'+s),s==='L'?'A':'B'));
+// second street (copy, different ids)
+$('cafeL2').innerHTML=$('cafeL').innerHTML.replace(/id="(\w+?)A"/g,'id="$1A2"');
+$('cafeR2').innerHTML=$('cafeR').innerHTML.replace(/id="(\w+?)B"/g,'id="$1B2"');
+function menu(el){el.innerHTML=`<div style="width:370px;padding:34px 38px;border-radius:30px;background:#fbf8f2;box-shadow:0 30px 70px rgba(0,0,0,.4)">
+ <div style="font-family:Jakarta;font-weight:800;font-size:24px;letter-spacing:.2em;color:#c2410c">MENYU</div>
+ ${[['Espresso','3'],['Kapuçino','4.5'],['Latte','5']].map(([n,p])=>`<div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:22px;font-family:Fraunces;font-size:40px;color:#1c1917"><span style="font-weight:400">${n}</span><span style="font-weight:900">${p} ₼</span></div>`).join('')}</div>`}
+menu($('mL'));menu($('mR'));
+$('stamps').innerHTML=[0,1,2,3,4,5].map(k=>`<div id="st${k}" style="width:92px;height:92px;border-radius:50%;border:4px dashed rgba(255,247,238,.55);display:grid;place-items:center"><div class="dot" style="width:70px;height:70px;border-radius:50%;background:#fff7ee;opacity:0;display:grid;place-items:center"><img src="img/logo-seffaf.png" style="width:56px"></div></div>`).join('');
+
+
+/* words */
+function words(id,t,start,stg=0.08,dur=0.42){
+ const ws=$(id).querySelectorAll('.w');
+ ws.forEach((w,k)=>{const x=eo(pr(t,start+k*stg,dur));
+  w.style.opacity=x; w.style.transform=`translateY(${(1-x)*60}px)`; w.style.filter=`blur(${(1-x)*14}px)`;});
+}
+function fadeOut(el,t,a,d=0.25,dy=-40){const x=eio(pr(t,a,d));el.style.opacity=1-x;el.style.transform=`translateY(${x*dy}px)`;el.style.filter=`blur(${x*12}px)`;return x}
+
+/* homography: element (w,h) -> quad */
+function h3d(w,h,q){
+ const [x0,y0]=q[0],[x1,y1]=q[1],[x2,y2]=q[2],[x3,y3]=q[3];
+ const dx1=x1-x2,dx2=x3-x2,dx3=x0-x1+x2-x3,dy1=y1-y2,dy2=y3-y2,dy3=y0-y1+y2-y3;
+ const den=dx1*dy2-dx2*dy1;const g=(dx3*dy2-dx2*dy3)/den,hh=(dx1*dy3-dx3*dy1)/den;
+ const a=x1-x0+g*x1,b=x3-x0+hh*x3,c=x0,d=y1-y0+g*y1,e=y3-y0+hh*y3,f=y0;
+ return `matrix3d(${a/w},${d/w},0,${g/w},${b/h},${e/h},0,${hh/h},0,0,1,0,${c},${f},0,1)`;
+}
+const K=1424/1200;
+const Q=[[360,381],[761,366],[918,1216],[498,1244]].map(([x,y])=>[x*K,y*K]);
+$('scr').style.transform=h3d(900,1903,Q);
+
+/* scene windows */
+const SC=[
+ ['sA',0,S(4)-0.05,'none','slide'],
+ ['sB',S(4)-0.05,S(6)-0.1,'zoom','zoom'],
+ ['sP',S(6)-0.1,S(8)-0.05,'zoom','slide'],
+ ['sD',S(8)-0.05,S(9)-0.08,'slide','zoom'],
+ ['sE',S(9)-0.08,S(10)-0.05,'zoom','zoom'],
+ ['sP2',S(10)-0.05,S(13)-0.1,'zoom','zoom'],
+ ['sH',S(13)-0.1,S(14)-0.08,'zoom','slide'],
+ ['sI',S(14)-0.08,S(15)-0.08,'slide','zoom'],
+ ['sJ',S(15)-0.08,END+1,'zoom','none'],
+];
+const TIN=0.38,TOUT=0.3;
+function sceneFx(t,a,b,tin,tout){
+ // returns {o,tf,bl} or null
+ if(t<a-0.02||t>b+TOUT) return null;
+ let o=1,tx=0,ty=0,s=1,bl=0;
+ if(tin!=='none'){const x=eo(pr(t,a,TIN));o*=cl(x*1.6);bl+=(1-x)*24;
+  if(tin==='slide'){tx+=(1-x)*260}else{s*=lerp(1.25,1,x)}}
+ if(t>b&&tout!=='none'){const x=eio(pr(t,b,TOUT));o*=1-x;bl+=x*24;
+  if(tout==='slide'){tx-=x*260}else{s*=lerp(1,0.82,x)}}
+ return {o,tf:`translate(${tx}px,${ty}px) scale(${s})`,bl};
+}
+
+/* ---------- render ---------- */
+function render(t){
+ // bg drift
+ $('grid').style.transform=`translate(${(t*6)%72}px,${(t*10)%72}px)`;
+ $('orb1').style.transform=`translate(${Math.sin(t*.5)*60}px,${Math.cos(t*.4)*50}px) scale(${1+Math.sin(t*.8)*.06})`;
+ const vis={};
+ for(const [id,a,b,ti,to] of SC){vis[id]=sceneFx(t,a,b,ti,to);}
+ // map sP & sP2 to same DOM
+ const P=vis.sP||vis.sP2;
+ for(const id of ['sA','sB','sD','sE','sH','sI','sJ']){const el=$(id),v=vis[id];
+  if(!v){el.style.display='none';continue}el.style.display='block';el.style.opacity=v.o;el.style.transform=v.tf;el.style.filter=v.bl>0.3?`blur(${v.bl}px)`:'none';}
+ const pe=$('sP'); if(!P){pe.style.display='none'}else{pe.style.display='block';pe.style.opacity=P.o;pe.style.transform=P.tf;pe.style.filter=P.bl>0.3?`blur(${P.bl}px)`:'none';}
+
+ /* A */
+ if(vis.sA){
+  const a1=S(1),a2=S(2),a3=S(3);
+  words('aT1',t,a1-0.15);
+  if(t>=a2-0.2){fadeOut($('aT1'),t,a2-0.2)} else {$('aT1').style.opacity=1;$('aT1').style.transform='none';$('aT1').style.filter='none'}
+  $('aT2').style.display=(t>=a2-0.1)?'block':'none'; words('aT2',t,a2-0.1,0.07);
+  if(t>=a3-0.2){fadeOut($('aT2'),t,a3-0.2)}
+  $('aT3').style.display=(t>=a3-0.1)?'block':'none'; words('aT3',t,a3-0.1,0.08);
+  // cafes enter
+  ['L','R'].forEach((s,k)=>{const x=back(pr(t,0.05+k*0.12,0.6));$('cafe'+s).setAttribute('transform',`translate(${(s==='L'?70:570)},${90+(1-x)*260})`);$('cafe'+s).style.opacity=cl(pr(t,0.05+k*0.12,0.3));});
+  // menus
+  const mx=pr(t,a2,0.5);['mL','mR'].forEach((m,k)=>{const x=back(pr(t,a2+k*0.1,0.55));$(m).style.opacity=cl(x*2);$(m).style.transform=`translateY(${(1-x)*120}px) rotate(${(k?3:-3)*(1-x)}deg)`;});
+  const ex=back(pr(t,a2+0.35,0.4));$('eq').style.opacity=cl(ex);$('eq').style.transform=`scale(${ex})`;
+  // fullness at a3
+  const f=eo(pr(t,a3-0.05,0.7));
+  $('glowB').setAttribute('opacity',f);$('doorB').setAttribute('opacity',f*.9);$('spillB').setAttribute('opacity',f);$('pplB').setAttribute('opacity',f);
+  $('steamB').setAttribute('opacity',f*(0.6+0.4*Math.sin(t*6)));$('steamB').setAttribute('transform',`translate(0,${-((t*30)%20)})`);
+  $('cafeL').style.filter=`saturate(${1-f}) brightness(${1-f*.35})`;
+  $('mL').style.filter=`grayscale(${f}) brightness(${1-f*.4})`;
+  $('menus').style.opacity=1-eo(pr(t,a3+0.3,0.5))*0.75;
+ }
+ /* B */
+ if(vis.sB){
+  words('bT1',t,S(4)-0.05,0.12);
+  if(t>=S(5)-0.15){fadeOut($('bT1'),t,S(5)-0.15,0.2,-60)}else{$('bT1').style.opacity=1}
+  $('bT2').style.display=t>=S(5)-0.05?'block':'none';words('bT2',t,S(5)-0.05,0.09);
+  $('bLab').textContent=t>=S(5)-0.05?'Səbəb':'Sual';
+  $('mark').style.transform=`scaleX(${eo(pr(t,S(5)+0.35,0.45))})`;
+ }
+ /* PHONE */
+ if(P){
+  const inP1=!!vis.sP; const base=inP1?S(6)-0.1:S(10)-0.05;
+  // camera push
+  const z=inP1?lerp(1.0,1.06,pr(t,base,S(8)-base)):lerp(1.03,1.09,pr(t,base,S(13)-base));
+  $('phWrap').style.transform=`scale(${z}) rotate(${Math.sin(t*0.9)*0.6}deg)`;
+  let lab='',txt='',ls=0;
+  const set1=v=>{$('sc1').style.display=v[0]?'block':'none';$('sc2').style.display=v[1]?'block':'none';$('sc3').style.display=v[2]?'block':'none'};
+  if(inP1){
+   const swap=S(7)+0.15;
+   if(t<swap){set1([1,0,0]);lab='1 · Skan';ls=S(6)-0.1;txt='<span class="w">QR kodu</span><br><span class="w"><i>skan</i></span> <span class="w">edir</span>';
+    const sy=520+((Math.sin((t-base)*3.2-1.57)+1)/2)*560;$('scanL').style.top=sy+'px';
+    const qp=back(pr(t,S(6)+1.1,0.5));$('qrPop').style.opacity=cl(qp*2);$('qrPop').style.transform=`translateY(${(1-qp)*140}px)`;
+    const qb=back(pr(t,base,0.5));$('qrBox').style.transform=`scale(${lerp(0.8,1,qb)})`;
+   } else {set1([0,1,0]);lab='2 · Kart';ls=swap;txt='<span class="w">Kart birbaşa</span><br><span class="w"><i>telefonda</i></span>';
+    const c=back(pr(t,swap,0.6));$('card').style.transform=`translateY(${(1-c)*900}px) rotate(${(1-c)*-8}deg)`;
+    for(let k=0;k<6;k++){const d=$('st'+k).firstElementChild;const x=back(pr(t,swap+0.7+k*0.0,0.35));d.style.opacity=k<1?cl(x):0;d.style.transform=`scale(${k<1?lerp(1.8,1,x):1})`;}
+    const ad=back(pr(t,swap+1.0,0.5));$('added').style.opacity=cl(ad*1.5);$('added').style.transform=`translateY(${(1-ad)*60}px)`;
+   }
+   // screen enter wipe
+   const sw=eo(pr(t,swap-0.05,0.35));$('sc2').style.clipPath=`inset(${(1-sw)*100}% 0 0 0 round 0)`;
+  } else {
+   set1([0,0,1]);
+   const n1=back(pr(t,S(10)+0.25,0.55));$('notif').style.opacity=cl(n1*2);$('notif').style.transform=`translateY(${(1-n1)*-420}px) scale(${lerp(.9,1,cl(n1))})`;
+   // messages stack at line 12
+   const m2=back(pr(t,S(12)+0.6,0.5)),m3=back(pr(t,S(12)+1.7,0.5));
+   const push=cl(m2)*240+cl(m3)*240;
+   $('notif').style.top=(640+push)+'px';
+   $('notif2').style.opacity=cl(m2*2);$('notif2').style.transform=`translateY(${(1-m2)*-300}px)`;
+   $('notif3').style.top=(640)+'px';$('notif2').style.top=(640+cl(m3)*240)+'px';
+   $('notif3').style.opacity=cl(m3*2);$('notif3').style.transform=`translateY(${(1-m3)*-300}px)`;
+   if(t<S(11)-0.1){lab='3 · Yaxınlıqda';ls=S(10)-0.05;txt='<span class="w">Kilid ekranında</span><br><span class="w"><i>bildiriş</i></span>'}
+   else if(t<S(12)-0.1){lab='Xatırlatma';ls=S(11)-0.1;txt='<span class="w">Kafe özünü</span><br><span class="w"><i>xatırladır</i></span>'}
+   else {lab='4 · Mesaj';ls=S(12)-0.1;txt='<span class="w">Müştəriyə birbaşa</span><br><span class="w"><i>mesaj</i></span>'}
+  }
+  if($('pLab').textContent!==lab){$('pLab').textContent=lab;$('pT').innerHTML=txt}
+  words('pT',t,ls,0.08,0.38);
+  const lx=eo(pr(t,ls,0.35));$('pLab').style.opacity=lx;
+ }
+ /* D */
+ if(vis.sD){
+  const x=back(pr(t,S(8)-0.05,0.5));$('dlIcon').style.transform=`scale(${lerp(.6,1,x)})`;$('dlIcon').style.opacity=cl(x*2);
+  $('strike').firstElementChild.setAttribute('stroke-dashoffset',260*(1-eo(pr(t,S(8)+0.55,0.35))));
+  words('dT',t,S(8)+0.05,0.15);
+ }
+ /* E */
+ if(vis.sE){
+  words('eT',t,S(9)-0.05,0.09);
+  const m=eio(pr(t,S(9)+0.1,1.6));
+  // path: from (150,980) up street x=330 then along y=640 to 690
+  let px,py; if(m<.45){const k=m/.45;px=330;py=lerp(1000,640,k)}else{const k=(m-.45)/.55;px=lerp(330,690,k);py=640}
+  $('me').setAttribute('transform',`translate(${px},${py})`);
+  [1,2,3].forEach(k=>{const ph=((t*0.9+k/3)%1);const r=$('ring'+k);
+   if(k===1){r.setAttribute('r',lerp(150,190,(Math.sin(t*3)+1)/2))}else{r.setAttribute('r',lerp(130,330,ph));r.setAttribute('stroke-opacity',(1-ph)*.7)}});
+  const pin=back(pr(t,S(9)-0.05,0.5));$('pin').setAttribute('transform',`translate(800,640) scale(${pin})`);
+ }
+ /* H */
+ if(vis.sH){
+  const x=back(pr(t,S(13)-0.05,0.7));$('logo').style.transform=`scale(${lerp(.5,1,x)}) rotate(${(1-cl(x))*-25}deg)`;$('logo').style.opacity=cl(x*2);
+  $('logoGlow').style.opacity=.3+.15*Math.sin(t*3);
+  words('hT',t,S(13)+0.75,0.18,0.45);
+  const c=eo(pr(t,S(13)+1.3,0.4));$('hChip').style.opacity=c;
+ }
+ /* I */
+ if(vis.sI){
+  words('iT',t,S(14)-0.05,0.09);
+  ['L2','R2'].forEach((s,k)=>{const x=back(pr(t,S(14)+k*0.1,0.55));$('cafe'+s).setAttribute('transform',`translate(${(k?570:70)},${90+(1-x)*220})`);});
+  const f=1;$('glowB2').setAttribute('opacity',f);$('doorB2').setAttribute('opacity',.9);$('spillB2').setAttribute('opacity',f);$('pplB2').setAttribute('opacity',f);
+  $('steamB2').setAttribute('opacity',(0.6+0.4*Math.sin(t*6)));$('steamB2').setAttribute('transform',`translate(0,${-((t*30)%20)})`);
+  $('cafeL2').style.filter='saturate(0) brightness(.6)';
+  const tl=back(pr(t,S(14)+0.9,0.45)),tr=back(pr(t,S(14)+1.15,0.45));
+  $('tagL').style.opacity=cl(tl);$('tagL').style.transform=`scale(${tl})`;$('tagR').style.opacity=cl(tr);$('tagR').style.transform=`scale(${tr})`;
+  const pulse=1+0.04*Math.sin(t*5)*cl(pr(t,S(14)+1.4,.3));$('cafeR2').style.transformOrigin='790px 480px';
+ }
+ /* J */
+ if(vis.sJ){
+  const x=pr(t,S(15)+0.45,0.42);const xs=x<1?lerp(2.2,1,eo(x)):1;
+  const bounce=x>=1?1+0.05*Math.exp(-(t-(S(15)+0.87))*9)*Math.cos((t-(S(15)+0.87))*30):1;
+  $('stamp').style.transform=`rotate(-6deg) scale(${xs*bounce})`;$('stamp').style.opacity=cl(x*3);
+  words('jT',t,S(15)+1.2,0.12);
+  const fo=eo(pr(t,S(15)+1.8,0.5));$('jFoot').style.opacity=fo;$('jFoot').style.transform=`translateY(${(1-fo)*50}px)`;
+ }
+ // flash on key beats
+ const beats=[S(3),S(5)+0.35,S(7)+0.2,S(10)+0.3,S(13)+0.05,S(15)+0.85];
+ let fl=0;for(const b of beats){const d=t-b;if(d>=0&&d<0.5)fl=Math.max(fl,(1-d/0.5)*0.55)}
+ $('flash').style.opacity=fl;
+}
+window.render=render;
+</script></body></html>

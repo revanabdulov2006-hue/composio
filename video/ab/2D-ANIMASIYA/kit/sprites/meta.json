@@ -1,0 +1,34 @@
+{
+ "ravan": {
+  "w": 231,
+  "h": 746,
+  "boyunY": 153,
+  "boyunX": 131,
+  "basH": 167,
+  "bedenY": 139
+ },
+ "sahibkar": {
+  "w": 250,
+  "h": 748,
+  "boyunY": 168,
+  "boyunX": 126,
+  "basH": 182,
+  "bedenY": 154
+ },
+ "kofeshop": {
+  "w": 236,
+  "h": 737,
+  "boyunY": 138,
+  "boyunX": 97,
+  "basH": 152,
+  "bedenY": 124
+ },
+ "ekspeditor": {
+  "w": 273,
+  "h": 727,
+  "boyunY": 138,
+  "boyunX": 125,
+  "basH": 152,
+  "bedenY": 124
+ }
+}

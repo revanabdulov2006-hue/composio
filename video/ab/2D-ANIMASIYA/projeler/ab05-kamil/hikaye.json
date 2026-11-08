@@ -1,0 +1,19 @@
+{
+ "baslik": "4 ayda\n[2-ci] filial?",
+ "vurgu": "#7BD86A",
+ "cumleler": [
+  {"baslik": true, "metin": "Müştərimiz dörd ayda ikinci filialını necə açdı?", "plan": "giris"},
+  {"metin": "Bilmək istəyirsənsə, sona qədər dinlə.", "plan": "giris"},
+  {"metin": "Dörd ay əvvəl Kamil bəy bizə bir söz dedi: «Yoruldum.»", "plan": "yorgun", "altyazi": "Dörd ay əvvəl Kamil bəy bizə bir söz dedi:"},
+  {"metin": "Mağazada hər şeyə özü nəzarət edirdi: işçilərə də, firmalara da, malın sistemə vurulmasına da.", "plan": "qaos", "altyazi": "Hər şeyə özü nəzarət edirdi"},
+  {"metin": "Bu işlər onun gündə ən azı yeddi saatını alırdı.", "plan": "saat"},
+  {"metin": "Biznesi o qədər də böyük deyildi.", "plan": "yuk"},
+  {"metin": "Sadəcə sistem yox idi, ona görə hər iş onun boynunda qalırdı.", "plan": "yuk"},
+  {"metin": "Biz onun işini AsanBiznesim-də sistemə saldıq.", "plan": "hell", "gecis": "beyaz"},
+  {"metin": "İşçilərə tapşırıqlar, firmaların borcları, malın sistemə vurulması, yəni onu yoran hər şey bir yerə yığıldı.", "plan": "hell", "altyazi": "Onu yoran hər şey bir yerə yığıldı"},
+  {"metin": "Dörd ayın sonunda Kamil bəy o yeddi saatı işin böyüməsinə verdi və ikinci filialını açdı.", "plan": "filial"},
+  {"metin": "Uğuru çox işləmək yox, sistemli işləmək gətirir.", "plan": "mesaj", "altyazi": false},
+  {"metin": "Sən də sistemə keçmək istəyirsən?", "plan": "cta", "altyazi": false},
+  {"metin": "Şərhlərə SİSTEM yaz.", "plan": "cta", "altyazi": false, "nefes": 1.6}
+ ]
+}
