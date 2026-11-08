@@ -1,0 +1,402 @@
+[
+ {
+  "name": "Achernar",
+  "id": "achernar"
+ },
+ {
+  "name": "Achird",
+  "id": "achird"
+ },
+ {
+  "name": "Algenib",
+  "id": "algenib"
+ },
+ {
+  "name": "Algieba",
+  "id": "algieba"
+ },
+ {
+  "name": "Alnilam",
+  "id": "alnilam"
+ },
+ {
+  "name": "Aoede",
+  "id": "aoede"
+ },
+ {
+  "name": "Authoritative Advisor 1",
+  "id": "ar-001-advisor-1"
+ },
+ {
+  "name": "Authoritative Advisor 10",
+  "id": "ar-001-advisor-10"
+ },
+ {
+  "name": "Authoritative Advisor 2",
+  "id": "ar-001-advisor-2"
+ },
+ {
+  "name": "Authoritative Advisor 3",
+  "id": "ar-001-advisor-3"
+ },
+ {
+  "name": "Digital Assistant 2",
+  "id": "ar-001-assistant-2"
+ },
+ {
+  "name": "Digital Assistant 4",
+  "id": "ar-001-assistant-4"
+ },
+ {
+  "name": "Commercial Voiceover 12",
+  "id": "ar-001-commercial-12"
+ },
+ {
+  "name": "Commercial Voiceover 2",
+  "id": "ar-001-commercial-2"
+ },
+ {
+  "name": "Commercial Voiceover 3",
+  "id": "ar-001-commercial-3"
+ },
+ {
+  "name": "Commercial Voiceover 4",
+  "id": "ar-001-commercial-4"
+ },
+ {
+  "name": "Commercial Voiceover 5",
+  "id": "ar-001-commercial-5"
+ },
+ {
+  "name": "Commercial Voiceover 7",
+  "id": "ar-001-commercial-7"
+ },
+ {
+  "name": "Concierge 11",
+  "id": "ar-001-concierge-11"
+ },
+ {
+  "name": "Concierge 2",
+  "id": "ar-001-concierge-2"
+ },
+ {
+  "name": "Call Center Agent 10",
+  "id": "ar-001-csagent-10"
+ },
+ {
+  "name": "Call Center Agent 11",
+  "id": "ar-001-csagent-11"
+ },
+ {
+  "name": "Call Center Agent 4",
+  "id": "ar-001-csagent-4"
+ },
+ {
+  "name": "Call Center Agent 8",
+  "id": "ar-001-csagent-8"
+ },
+ {
+  "name": "Tech Advisor 10",
+  "id": "ar-001-techagent-10"
+ },
+ {
+  "name": "Tech Advisor 11",
+  "id": "ar-001-techagent-11"
+ },
+ {
+  "name": "Tech Advisor 2",
+  "id": "ar-001-techagent-2"
+ },
+ {
+  "name": "Tech Advisor 4",
+  "id": "ar-001-techagent-4"
+ },
+ {
+  "name": "Training Voiceover 1",
+  "id": "ar-001-training-1"
+ },
+ {
+  "name": "Training Voiceover 12",
+  "id": "ar-001-training-12"
+ },
+ {
+  "name": "Training Voiceover 2",
+  "id": "ar-001-training-2"
+ },
+ {
+  "name": "Tutor 1",
+  "id": "ar-001-tutor-1"
+ },
+ {
+  "name": "Tutor 2",
+  "id": "ar-001-tutor-2"
+ },
+ {
+  "name": "Tutor 3",
+  "id": "ar-001-tutor-3"
+ },
+ {
+  "name": "Tutor 4",
+  "id": "ar-001-tutor-4"
+ },
+ {
+  "name": "Authoritative Advisor 11",
+  "id": "ar-eg-advisor-11"
+ },
+ {
+  "name": "Authoritative Advisor 12",
+  "id": "ar-eg-advisor-12"
+ },
+ {
+  "name": "Authoritative Advisor 4",
+  "id": "ar-eg-advisor-4"
+ },
+ {
+  "name": "Authoritative Advisor 5",
+  "id": "ar-eg-advisor-5"
+ },
+ {
+  "name": "Authoritative Advisor 6",
+  "id": "ar-eg-advisor-6"
+ },
+ {
+  "name": "Authoritative Advisor 7",
+  "id": "ar-eg-advisor-7"
+ },
+ {
+  "name": "Authoritative Advisor 8",
+  "id": "ar-eg-advisor-8"
+ },
+ {
+  "name": "Authoritative Advisor 9",
+  "id": "ar-eg-advisor-9"
+ },
+ {
+  "name": "Digital Assistant 1",
+  "id": "ar-eg-assistant-1"
+ },
+ {
+  "name": "Digital Assistant 10",
+  "id": "ar-eg-assistant-10"
+ },
+ {
+  "name": "Digital Assistant 11",
+  "id": "ar-eg-assistant-11"
+ },
+ {
+  "name": "Digital Assistant 12",
+  "id": "ar-eg-assistant-12"
+ },
+ {
+  "name": "Digital Assistant 3",
+  "id": "ar-eg-assistant-3"
+ },
+ {
+  "name": "Digital Assistant 5",
+  "id": "ar-eg-assistant-5"
+ },
+ {
+  "name": "Digital Assistant 6",
+  "id": "ar-eg-assistant-6"
+ },
+ {
+  "name": "Digital Assistant 7",
+  "id": "ar-eg-assistant-7"
+ },
+ {
+  "name": "Digital Assistant 8",
+  "id": "ar-eg-assistant-8"
+ },
+ {
+  "name": "Digital Assistant 9",
+  "id": "ar-eg-assistant-9"
+ },
+ {
+  "name": "Commercial Voiceover 1",
+  "id": "ar-eg-commercial-1"
+ },
+ {
+  "name": "Commercial Voiceover 10",
+  "id": "ar-eg-commercial-10"
+ },
+ {
+  "name": "Commercial Voiceover 11",
+  "id": "ar-eg-commercial-11"
+ },
+ {
+  "name": "Commercial Voiceover 13",
+  "id": "ar-eg-commercial-13"
+ },
+ {
+  "name": "Commercial Voiceover 6",
+  "id": "ar-eg-commercial-6"
+ },
+ {
+  "name": "Commercial Voiceover 8",
+  "id": "ar-eg-commercial-8"
+ },
+ {
+  "name": "Commercial Voiceover 9",
+  "id": "ar-eg-commercial-9"
+ },
+ {
+  "name": "Concierge 1",
+  "id": "ar-eg-concierge-1"
+ },
+ {
+  "name": "Concierge 10",
+  "id": "ar-eg-concierge-10"
+ },
+ {
+  "name": "Concierge 12",
+  "id": "ar-eg-concierge-12"
+ },
+ {
+  "name": "Concierge 3",
+  "id": "ar-eg-concierge-3"
+ },
+ {
+  "name": "Concierge 4",
+  "id": "ar-eg-concierge-4"
+ },
+ {
+  "name": "Concierge 5",
+  "id": "ar-eg-concierge-5"
+ },
+ {
+  "name": "Concierge 6",
+  "id": "ar-eg-concierge-6"
+ },
+ {
+  "name": "Concierge 7",
+  "id": "ar-eg-concierge-7"
+ },
+ {
+  "name": "Concierge 8",
+  "id": "ar-eg-concierge-8"
+ },
+ {
+  "name": "Concierge 9",
+  "id": "ar-eg-concierge-9"
+ },
+ {
+  "name": "Call Center Agent 1",
+  "id": "ar-eg-csagent-1"
+ },
+ {
+  "name": "Call Center Agent 12",
+  "id": "ar-eg-csagent-12"
+ },
+ {
+  "name": "Call Center Agent 2",
+  "id": "ar-eg-csagent-2"
+ },
+ {
+  "name": "Call Center Agent 3",
+  "id": "ar-eg-csagent-3"
+ },
+ {
+  "name": "Call Center Agent 5",
+  "id": "ar-eg-csagent-5"
+ },
+ {
+  "name": "Call Center Agent 6",
+  "id": "ar-eg-csagent-6"
+ },
+ {
+  "name": "Call Center Agent 7",
+  "id": "ar-eg-csagent-7"
+ },
+ {
+  "name": "Call Center Agent 9",
+  "id": "ar-eg-csagent-9"
+ },
+ {
+  "name": "Podcaster 1",
+  "id": "ar-eg-podcaster-1"
+ },
+ {
+  "name": "Podcaster 10",
+  "id": "ar-eg-podcaster-10"
+ },
+ {
+  "name": "Podcaster 11",
+  "id": "ar-eg-podcaster-11"
+ },
+ {
+  "name": "Podcaster 12",
+  "id": "ar-eg-podcaster-12"
+ },
+ {
+  "name": "Podcaster 2",
+  "id": "ar-eg-podcaster-2"
+ },
+ {
+  "name": "Podcaster 3",
+  "id": "ar-eg-podcaster-3"
+ },
+ {
+  "name": "Podcaster 4",
+  "id": "ar-eg-podcaster-4"
+ },
+ {
+  "name": "Podcaster 5",
+  "id": "ar-eg-podcaster-5"
+ },
+ {
+  "name": "Podcaster 6",
+  "id": "ar-eg-podcaster-6"
+ },
+ {
+  "name": "Podcaster 7",
+  "id": "ar-eg-podcaster-7"
+ },
+ {
+  "name": "Podcaster 8",
+  "id": "ar-eg-podcaster-8"
+ },
+ {
+  "name": "Podcaster 9",
+  "id": "ar-eg-podcaster-9"
+ },
+ {
+  "name": "Storyteller 1",
+  "id": "ar-eg-storyteller-1"
+ },
+ {
+  "name": "Storyteller 10",
+  "id": "ar-eg-storyteller-10"
+ },
+ {
+  "name": "Storyteller 11",
+  "id": "ar-eg-storyteller-11"
+ },
+ {
+  "name": "Storyteller 12",
+  "id": "ar-eg-storyteller-12"
+ },
+ {
+  "name": "Storyteller 2",
+  "id": "ar-eg-storyteller-2"
+ },
+ {
+  "name": "Storyteller 3",
+  "id": "ar-eg-storyteller-3"
+ },
+ {
+  "name": "Storyteller 4",
+  "id": "ar-eg-storyteller-4"
+ },
+ {
+  "name": "Storyteller 5",
+  "id": "ar-eg-storyteller-5"
+ },
+ {
+  "name": "Storyteller 6",
+  "id": "ar-eg-storyteller-6"
+ },
+ {
+  "name": "Storyteller 7",
+  "id": "ar-eg-storyteller-7"
+ }
+]
