@@ -1,0 +1,95 @@
+{
+ "model": "gemini-flash-latest",
+ "lines": [
+  {
+   "i": 1,
+   "start": 10.74,
+   "end": 12.56,
+   "text": "Eyni küçədə iki kafe var."
+  },
+  {
+   "i": 2,
+   "start": 12.98,
+   "end": 14.65,
+   "text": "Eyni menyu, eyni qiymətlər."
+  },
+  {
+   "i": 3,
+   "start": 15.0,
+   "end": 16.5,
+   "text": "Amma biri həmişə doludur."
+  },
+  {
+   "i": 4,
+   "start": 16.85,
+   "end": 17.75,
+   "text": "Bilirsən niyə?"
+  },
+  {
+   "i": 5,
+   "start": 18.06,
+   "end": 19.34,
+   "text": "Çünki onun sistemi var."
+  },
+  {
+   "i": 6,
+   "start": 20.0,
+   "end": 21.75,
+   "text": "Müştəri QR kodu skan edir,"
+  },
+  {
+   "i": 7,
+   "start": 21.85,
+   "end": 24.63,
+   "text": "və kafenin rəqəmsal kartı birbaşa telefonuna əlavə olunur."
+  },
+  {
+   "i": 8,
+   "start": 25.18,
+   "end": 26.68,
+   "text": "Heç nə yükləmək lazım deyil."
+  },
+  {
+   "i": 9,
+   "start": 27.28,
+   "end": 29.17,
+   "text": "Müştəri kafenin yaxınlığından keçəndə,"
+  },
+  {
+   "i": 10,
+   "start": 29.4,
+   "end": 30.9,
+   "text": "kilid ekranında bildiriş çıxır."
+  },
+  {
+   "i": 11,
+   "start": 31.35,
+   "end": 32.85,
+   "text": "Yəni kafe özünü xatırladır."
+  },
+  {
+   "i": 12,
+   "start": 33.56,
+   "end": 36.65,
+   "text": "Üstəlik, kafe müştərilərinə birbaşa mesaj göndərə bilir."
+  },
+  {
+   "i": 13,
+   "start": 37.15,
+   "end": 39.08,
+   "text": "Bu sistemin adı Yənə gəl-dir."
+  },
+  {
+   "i": 14,
+   "start": 39.68,
+   "end": 41.87,
+   "text": "Bəs sən hansı kafenin sahibi olmaq istərdin?"
+  },
+  {
+   "i": 15,
+   "start": 42.3,
+   "end": 44.6,
+   "text": "Şərhlərə KART yaz, sənin üçün də quraq."
+  }
+ ]
+}
