@@ -1,0 +1,39 @@
+{
+  "_qeyd": "Yorum cavablari. Aciq cavab <=300 simvol, <=1 link, tam BOYUK herf deyil. Variantlar novbe ile (jurnaldaki say % variant sayi) secilir ki Instagram eyni metni spam saymasin. Mehsul iddialari yalniz menbe fayllarindan.",
+  "ab": {
+    "acar_sozler": ["sistem"],
+    "aciq_cavab": [
+      "Təşəkkür edirik! Məlumatı DM-ə göndərdik, bir baxarsan 📩",
+      "Çox sağ ol! Ətraflı məlumat DM-dədir 📩",
+      "Yazdığın üçün sağ ol! Hər şeyi DM-ə yazdıq, yoxla 📩",
+      "Sağ ol! DM-ə göndərdik, baxmağı unutma 📩",
+      "Təşəkkürlər! Məlumat DM-də səni gözləyir 📩"
+    ],
+    "dm_acar_soz": [
+      "Salam! «SİSTEM» yazdığın üçün sağ ol 🙌\n\nAsanBiznesim market və aptek sahibləri üçündür: tədarükçü, faktura, borc, srok və işçi hesabını dəftərə yazmaq əvəzinə bir yerdə saxlayırsan.\n\nBaxmaq üçün: asanbiznesim.com\n\nİşin necədir, neçə tədarükçü ilə işləyirsən? Qısa yaz, sənə nədən başlamağı deyim.",
+      "Salam! «SİSTEM» yazdığın üçün təşəkkürlər 🙌\n\nAsanBiznesim tədarükçü, faktura, borc, srok və işçi işlərini bir yerə yığır, dəftərə ehtiyac qalmır.\n\nBura bax: asanbiznesim.com\n\nMarketin, yoxsa aptekin var? Yaz, sənə uyğun hissəni göstərim."
+    ],
+    "dm_umumi": [
+      "Salam! Şərhin üçün sağ ol 🙌\n\nAsanBiznesim market və aptek sahibləri üçün tədarükçü, borc, srok və işçi hesabını bir yerdə saxlayan sistemdir.\n\nƏtraflı: asanbiznesim.com\n\nSualın varsa, bura yaz.",
+      "Salam! Yazdığın üçün təşəkkürlər 🙌\n\nAsanBiznesim dəftər-kağız yerinə tədarükçü, faktura və borc hesabını bir platformada aparmağa kömək edir.\n\nBaxmaq üçün: asanbiznesim.com\n\nSualın olsa, burada yaz."
+    ]
+  },
+  "yg": {
+    "acar_sozler": ["kart"],
+    "aciq_cavab": [
+      "Təşəkkür edirik! Məlumatı DM-ə göndərdik ☕",
+      "Çox sağ ol! Ətraflı DM-dədir ☕",
+      "Yazdığın üçün sağ ol! DM-ə baxarsan ☕",
+      "Sağ ol! Hər şeyi DM-ə yazdıq ☕",
+      "Təşəkkürlər! DM-də səni gözləyir ☕"
+    ],
+    "dm_acar_soz": [
+      "Salam! «KART» yazdığın üçün sağ ol ☕\n\nYenəgəl kafe və restoranlar üçün rəqəmsal kartdır: müştəri QR-u skan edir, kart telefonuna əlavə olunur, heç nə yükləməyə ehtiyac yoxdur.\n\nBaxmaq üçün: yenegel.app\n\nKafen haqqında qısa yaz (adı və şəhəri), sənə necə işlədiyini göstərim.",
+      "Salam! «KART» yazdığın üçün təşəkkürlər ☕\n\nYenəgəl-də müştəri QR-u skan edir və kafenin kartı birbaşa telefonuna düşür, tətbiq yükləmək lazım deyil.\n\nƏtraflı: yenegel.app\n\nKafen hardadır? Yaz, sənin üçün quraq."
+    ],
+    "dm_umumi": [
+      "Salam! Şərhin üçün sağ ol ☕\n\nYenəgəl kafelər üçün rəqəmsal sədaqət kartıdır: müştəri QR-u skan edir, kart telefonuna düşür.\n\nƏtraflı: yenegel.app\n\nSualın olsa, bura yaz.",
+      "Salam! Yazdığın üçün təşəkkürlər ☕\n\nYenəgəl müştərilərin kafeyə qayıtmasına kömək edən rəqəmsal kartdır, QR-u skan etmək kifayətdir.\n\nBaxmaq üçün: yenegel.app\n\nSualın varsa, burada yaz."
+    ]
+  }
+}

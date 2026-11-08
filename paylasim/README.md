@@ -29,3 +29,6 @@ Fayl: `paylasim/novbe.json`. Media: `media` branch-ı, yol `media/<brend>/<tarix
 3. post/reel: `INSTAGRAM_POST_IG_USER_MEDIA` (image_url/video_url, caption) → `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`.
    story: eyni, `media_type: STORIES`, caption yoxdur.
 4. Uğurda status=paylasildi + ig_media_id + permalink; xətada status=xeta + qeyd. Eyni item iki dəfə paylaşılmır.
+
+## Yorum cavabları
+`cavablar.json` (mətnlər) + `cavab-jurnal.json` (emal olunmuş yorumlar). Saatlıq tapşırıq yeni yorumlara açıq cavab yazır və DM (private reply) göndərir.
