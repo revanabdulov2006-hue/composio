@@ -1,0 +1,17 @@
+{
+ "baslik": "Bu süd\n[xarabdır]",
+ "vurgu": "#7BD86A",
+ "cumleler": [
+  {"baslik": true, "metin": "Rəfindəki bir qutu süd üç gün əvvəl xarab olub.", "plan": "hook"},
+  {"metin": "Təsəvvür et, müştəri onu götürür, kassaya gəlir və birdən tarixə baxır.", "plan": "kassa", "altyazi": "Müştəri kassada tarixə baxır"},
+  {"metin": "Sən isə bundan xəbərsizsən, çünki yüzlərlə malın srokunu yadda saxlamaq mümkün deyil.", "plan": "yaddas", "altyazi": "Yüzlərlə malın srokunu yadda saxlamaq olmur"},
+  {"metin": "Nəticədə həm mal ziyana gedir, həm müştərinin etibarı, həm də yoxlamada cərimə riski yaranır.", "plan": "ziyan", "altyazi": false},
+  {"metin": "Ziyanın çoxu bahalıqdan yox, unutmaqdan gəlir.", "plan": "mesaj1", "altyazi": false},
+  {"metin": "AsanBiznesim-də mal daxil olanda onun son istifadə tarixi də qeyd olunur.", "plan": "hell", "gecis": "beyaz", "altyazi": "Mal daxil olanda srok da qeyd olunur"},
+  {"metin": "Vaxtı yaxınlaşanda sistem səni qabaqcadan xəbərdar edir.", "plan": "hell"},
+  {"metin": "Sən də o malı vaxtında satışa çıxarırsan və rəfdə heç nə xarab qalmır.", "plan": "rahat", "altyazi": "Mal vaxtında satılır, rəfdə xarab qalmır"},
+  {"metin": "Hansı maldan nə qədər ziyan etdiyini isə analizdə görürsən.", "plan": "analiz"},
+  {"metin": "Dəftəri unut, srokları sistem izləsin.", "plan": "mesaj2", "altyazi": false},
+  {"metin": "Şərhlərə sistem sözünü yaz, qalanını biz göstərək.", "plan": "cta", "altyazi": false}
+ ]
+}
