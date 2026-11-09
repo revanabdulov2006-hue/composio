@@ -1,0 +1,11 @@
+Kağız möhür kartını kim saxlayır?
+Müştəriyə kart verirsən, o da cibinə qoyur.
+Bir həftə sonra kart ya yuyulur, ya da evdə qalır.
+Möhürlər itir, müştəri də qayıtmaq üçün səbəbini itirir.
+Sən isə hər ay yenidən kart çap etdirirsən.
+Yenə gəl ilə müştəri kassadakı QR kodu skan edir.
+Kafenin kartı birbaşa telefonuna əlavə olunur, heç nə yükləmədən.
+Telefon həmişə yanındadır, deməli kart da itmir.
+Hər gəlişdə möhür telefonda toplanır.
+İlk otuz gün pulsuzdur.
+Kafen üçün istəyirsənsə, şərhlərə kart yaz.
