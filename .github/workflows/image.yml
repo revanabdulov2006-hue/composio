@@ -1,0 +1,29 @@
+name: image
+on:
+  workflow_dispatch:
+    inputs:
+      jobs:  {description: 'JSON array: [{"prompt":"...","out":"img/a.png","aspect":"1:1"}]', required: false, default: ""}
+      model: {description: "Image model (empty = auto-pick best available)", required: false, default: ""}
+permissions:
+  contents: write
+concurrency: image
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          JOBS: ${{ inputs.jobs }}
+          MODEL: ${{ inputs.model }}
+        run: python3 tools/img.py
+      - name: Commit result
+        if: always()
+        run: |
+          git config user.name "img-bot"
+          git config user.email "img-bot@users.noreply.github.com"
+          git add img
+          git diff --cached --quiet || git commit -m "image: gemini assets"
+          git pull --rebase -q origin main || true
+          git push -q origin HEAD:main
