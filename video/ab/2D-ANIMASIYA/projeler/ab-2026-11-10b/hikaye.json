@@ -1,0 +1,57 @@
+{
+ "baslik": "Bəs pul\n[hara] *getdi?*",
+ "vurgu": "#7BD86A",
+ "cumleler": [
+  {
+   "baslik": true,
+   "metin": "Satış yaxşı idi, bəs pul hara getdi?",
+   "plan": "hook"
+  },
+  {
+   "metin": "Ay bitir, kassaya baxırsan, gözlədiyin məbləğ isə orada yoxdur.",
+   "plan": "kassa",
+   "altyazi": "Gözlədiyin məbləğ yoxdur"
+  },
+  {
+   "metin": "İcarə, işıq, işçi maaşı, xırda alışlar, hamısı ayrı-ayrı yerdən çıxıb gedib.",
+   "plan": "xerc",
+   "altyazi": false
+  },
+  {
+   "metin": "Bəzisini dəftərə yazmısan, bəzisini isə heç xatırlamırsan.",
+   "plan": "defter",
+   "altyazi": false
+  },
+  {
+   "metin": "Ona görə qazandığını, ya itirdiyini yalnız hisslə bilirsən.",
+   "plan": "hiss",
+   "altyazi": false
+  },
+  {
+   "metin": "Amma bu sualın cavabı təxminlə tapılmamalıdır.",
+   "plan": "kecid",
+   "altyazi": false
+  },
+  {
+   "metin": "AsanBiznesim-də icarədən işçi ödənişinə qədər hər xərci qeyd edirsən.",
+   "plan": "hell",
+   "gecis": "beyaz",
+   "altyazi": "Hər xərc öz yerində"
+  },
+  {
+   "metin": "Günlük, həftəlik, aylıq hesabatda nə aldığını, nə ziyan etdiyini, nə ödədiyini bir ekranda görürsən.",
+   "plan": "analiz",
+   "altyazi": "Hamısı bir ekranda"
+  },
+  {
+   "metin": "Pulun hara getdiyini artıq ayın sonunda yox, elə həmin gün bilirsən.",
+   "plan": "rahat",
+   "altyazi": "Elə həmin gün bilirsən"
+  },
+  {
+   "metin": "Şərhlərə sistem sözünü yaz, sənə necə işlədiyini göstərək.",
+   "plan": "cta",
+   "altyazi": false
+  }
+ ]
+}
