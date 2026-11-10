@@ -1,0 +1,237 @@
+[
+{
+"t": 0.05,
+"file": "video/yg/sfx/quick-double-swish-sfx-230502.mp3",
+"db": -7
+},
+{
+"t": 0.38,
+"file": "video/yg/sfx/pop-331049.mp3",
+"db": -10
+},
+{
+"t": 0.55,
+"file": "video/yg/sfx/pop-331049.mp3",
+"db": -10
+},
+{
+"t": 1.05,
+"file": "video/yg/sfx/pop-up-notify-smooth-modern-332448.mp3",
+"db": -10
+},
+{
+"t": 1.75,
+"file": "video/yg/sfx/swoosh-014-383768.mp3",
+"db": -11
+},
+{
+"t": 5.12,
+"file": "video/yg/sfx/whoosh-velocity-383019.mp3",
+"db": -7
+},
+{
+"t": 8.03,
+"file": "video/yg/sfx/pop-331049.mp3",
+"db": -7
+},
+{
+"t": 8.84,
+"file": "video/yg/sfx/pop-331049.mp3",
+"db": -7
+},
+{
+"t": 9.59,
+"file": "video/yg/sfx/pop-331049.mp3",
+"db": -7
+},
+{
+"t": 10.24,
+"file": "video/yg/sfx/quick-double-swish-sfx-230502.mp3",
+"db": -7
+},
+{
+"t": 11.56,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -10
+},
+{
+"t": 11.98,
+"file": "video/yg/sfx/simple-whoosh-382724.mp3",
+"db": -7
+},
+{
+"t": 12.2,
+"file": "video/yg/sfx/shine-6-268910.mp3",
+"db": -11
+},
+{
+"t": 12.69,
+"file": "video/yg/sfx/ui-sound-374228.mp3",
+"db": -11
+},
+{
+"t": 14.16,
+"file": "video/yg/sfx/ui-sound-374228.mp3",
+"db": -10
+},
+{
+"t": 15.26,
+"file": "video/yg/sfx/success-340660.mp3",
+"db": -10
+},
+{
+"t": 16.42,
+"file": "video/yg/sfx/swoosh-014-383768.mp3",
+"db": -7
+},
+{
+"t": 17.78,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -9
+},
+{
+"t": 18.86,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -9
+},
+{
+"t": 19.95,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -9
+},
+{
+"t": 21.05,
+"file": "video/yg/sfx/quick-double-swish-sfx-230502.mp3",
+"db": -7
+},
+{
+"t": 23.7,
+"file": "video/yg/sfx/swoosh-014-383768.mp3",
+"db": -9
+},
+{
+"t": 24.15,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 24.27,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 24.39,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 24.51,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 24.63,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 26.43,
+"file": "video/yg/sfx/whoosh-velocity-383019.mp3",
+"db": -7
+},
+{
+"t": 27.06,
+"file": "video/yg/sfx/pop-331049.mp3",
+"db": -9
+},
+{
+"t": 28.33,
+"file": "video/yg/sfx/swoosh-014-383768.mp3",
+"db": -7
+},
+{
+"t": 30.92,
+"file": "video/yg/sfx/confirm-tap-394001.mp3",
+"db": -6
+},
+{
+"t": 31.04,
+"file": "video/yg/sfx/success-340660.mp3",
+"db": -9
+},
+{
+"t": 32.18,
+"file": "video/yg/sfx/quick-double-swish-sfx-230502.mp3",
+"db": -7
+},
+{
+"t": 32.68,
+"file": "video/yg/sfx/shine-6-268910.mp3",
+"db": -11
+},
+{
+"t": 34.91,
+"file": "video/yg/sfx/whoosh-velocity-383019.mp3",
+"db": -7
+},
+{
+"t": 35.51,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 35.65,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 35.79,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 35.93,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -11
+},
+{
+"t": 36.61,
+"file": "video/yg/sfx/bright-notification-352449.mp3",
+"db": -12
+},
+{
+"t": 38.94,
+"file": "video/yg/sfx/simple-whoosh-382724.mp3",
+"db": -7
+},
+{
+"t": 39.16,
+"file": "video/yg/sfx/shine-6-268910.mp3",
+"db": -11
+},
+{
+"t": 40.61,
+"file": "video/yg/sfx/pop-up-notify-smooth-modern-332448.mp3",
+"db": -11
+},
+{
+"t": 41.19,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -8
+},
+{
+"t": 41.31,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -8
+},
+{
+"t": 41.43,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -8
+},
+{
+"t": 41.55,
+"file": "video/yg/sfx/soft-ui-pop-light-minimal-click-451232.mp3",
+"db": -8
+}
+]
