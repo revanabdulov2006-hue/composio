@@ -136,6 +136,10 @@ def generate(model, meth, prompt, aspect):
 
 def main():
     jobs_raw = os.environ.get("JOBS", "").strip()
+    jobs_file = os.environ.get("JOBS_FILE", "").strip()
+    if not jobs_raw and jobs_file:
+        jobs_raw = open(jobs_file, encoding="utf-8").read().strip()
+        print("jobs from file:", jobs_file)
     want = os.environ.get("MODEL", "").strip()
     models = list_models()
     os.makedirs("img", exist_ok=True)

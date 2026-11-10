@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       jobs:  {description: 'JSON array: [{"prompt":"...","out":"img/a.png","aspect":"1:1"}]', required: false, default: ""}
+      jobs_file: {description: "Repo path to a JSON jobs file (used if jobs is empty)", required: false, default: ""}
       model: {description: "Image model (empty = auto-pick best available)", required: false, default: ""}
 permissions:
   contents: write
@@ -16,6 +17,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           JOBS: ${{ inputs.jobs }}
+          JOBS_FILE: ${{ inputs.jobs_file }}
           MODEL: ${{ inputs.model }}
         run: python3 tools/img.py
       - name: Commit result
