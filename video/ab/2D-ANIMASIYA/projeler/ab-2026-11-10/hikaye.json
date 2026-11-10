@@ -1,0 +1,17 @@
+{
+ "baslik": "Borcun\n[qalıb?]",
+ "vurgu": "#7BD86A",
+ "cumleler": [
+  {"baslik": true, "metin": "Tədarükçü deyir ki, hələ borcun qalıb.", "plan": "hook"},
+  {"metin": "Təsəvvür et, sən isə əmin deyilsən, axı keçən ay ödəmişdin.", "plan": "zeng", "altyazi": "Axı keçən ay ödəmişdin"},
+  {"metin": "Fakturalar qovluqdadır, ödənişlər dəftərdə, bəzisi isə heç yazılmayıb.", "plan": "kagiz", "altyazi": false},
+  {"metin": "Saatlarla kağız axtarırsan, sonda da çox vaxt mübahisə etmədən ödəyirsən.", "plan": "axtar", "altyazi": "Saatlarla kağız axtarırsan"},
+  {"metin": "Bəlkə də eyni pulu iki dəfə verirsən.", "plan": "mesaj1", "altyazi": false},
+  {"metin": "AsanBiznesim-də hər tədarükçünün fakturası və ödənişi bir yerdə qeyd olunur.", "plan": "hell", "gecis": "beyaz", "altyazi": "Faktura və ödəniş bir yerdə"},
+  {"metin": "Kimə nə qədər borcun qaldığını bir baxışda görürsən.", "plan": "hell", "altyazi": "Qalan borc bir baxışda"},
+  {"metin": "Firma zəng edəndə sadəcə ekranı açırsan, hər şey tarixi ilə qarşındadır.", "plan": "rahat", "altyazi": "Hər ödəniş tarixi ilə"},
+  {"metin": "Ayın sonunda xərclərini də analizdə rahat izləyirsən.", "plan": "analiz", "altyazi": "Xərclər analizdə"},
+  {"metin": "Borcu yaddaşda yox, sistemdə saxla.", "plan": "mesaj2", "altyazi": false},
+  {"metin": "Şərhlərə sistem sözünü yaz, qalanını biz göstərək.", "plan": "cta", "altyazi": false}
+ ]
+}
