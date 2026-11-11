@@ -1,0 +1,10 @@
+[
+{"prompt":"photorealistic interior of a small neighborhood grocery market in Baku, shelves with products, warm evening lighting, shallow depth of field, cinematic, no text, no logos, no people","out":"img/ab/2026-11-11/market.png","aspect":"9:16"},
+{"prompt":"photorealistic view from inside a car driving on an open highway at golden hour, road ahead, hills, cinematic, shallow depth of field, no text, no logos, no people","out":"img/ab/2026-11-11/yol.png","aspect":"9:16"},
+{"prompt":"photorealistic stack of cardboard boxes delivered at a small shop back door, soft daylight, cinematic, no text, no logos, no people","out":"img/ab/2026-11-11/qutular.png","aspect":"9:16"},
+{"prompt":"abstract background, dark, deep green #0B2416 with green accent #55B848, soft gradient glow, subtle grain, no text, no people","out":"img/ab/2026-11-11/fon-tund.png","aspect":"9:16"},
+{"prompt":"abstract background, light, off-white with soft mint green accent #55B848, soft gradient, subtle paper texture, no text, no people","out":"img/ab/2026-11-11/fon-acik.png","aspect":"9:16"},
+{"prompt":"light leak overlay, green tones, subtle glow particles, black background","out":"img/ab/2026-11-11/leak.png","aspect":"9:16"},
+{"prompt":"photorealistic padlock with a key, isolated, soft studio lighting, green accent, solid dark background, no text","out":"img/ab/2026-11-11/kilid.png","aspect":"1:1"},
+{"prompt":"photorealistic paper invoice clipboard, isolated, soft lighting, solid dark background, no text","out":"img/ab/2026-11-11/faktura.png","aspect":"1:1"}
+]
