@@ -1,0 +1,49 @@
+{
+ "baslik": "",
+ "cumleler": [
+  {
+   "metin": "Sən olmayanda market necə işləyir?",
+   "plan": "hook"
+  },
+  {
+   "metin": "Təsəvvür et, bir günlüyə şəhərdən çıxmalı oldun.",
+   "plan": "sefer"
+  },
+  {
+   "metin": "Telefon susmur: mal gəlib, hara yazım, firmaya pulu verimmi, nə sifariş edim.",
+   "plan": "zeng"
+  },
+  {
+   "metin": "İşçiyə hər şeyi göstərə də bilmirsən, çünki dəftərdə borclar da, xərclər də açıq yazılıb.",
+   "plan": "sirr"
+  },
+  {
+   "metin": "Sonda istirahət etmək əvəzinə bütün günü telefonla marketi idarə edirsən.",
+   "plan": "yorgun"
+  },
+  {
+   "metin": "Bunun daha sakit bir yolu var.",
+   "plan": "korpu"
+  },
+  {
+   "metin": "AsanBiznesim-də işçini sistemə əlavə edir, ona yalnız lazım olan bölmələrə icazə verirsən.",
+   "plan": "icaze"
+  },
+  {
+   "metin": "O, fakturanı yazır, malı qəbul edir, amma borcları və xərcləri görmür.",
+   "plan": "gormur"
+  },
+  {
+   "metin": "Günün tapşırıqlarını da elə oradan verirsən, kimin nəyi etdiyini isə uzaqdan izləyirsən.",
+   "plan": "tapsiriq"
+  },
+  {
+   "metin": "Market işləyir, sən də rahatca yolunda olursan.",
+   "plan": "yol"
+  },
+  {
+   "metin": "Şərhlərə sistem sözünü yaz, necə qurulduğunu göstərək.",
+   "plan": "cta"
+  }
+ ]
+}

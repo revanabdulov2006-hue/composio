@@ -1,7 +1,7 @@
 const { chromium } = require('/opt/npm-tools/node_modules/playwright');
 const { spawn } = require('child_process'); const http=require('http'), fs=require('fs'), path=require('path');
 const [,, dir, mode, a, b] = process.argv;
-const types={'.js':'text/javascript','.html':'text/html','.png':'image/png','.woff2':'font/woff2','.json':'application/json','.svg':'image/svg+xml'};
+const types={'.js':'text/javascript','.html':'text/html','.png':'image/png','.woff2':'font/woff2','.json':'application/json','.svg':'image/svg+xml','.css':'text/css','.jpg':'image/jpeg'};
 const srv=http.createServer((req,res)=>{const p=path.join(dir,decodeURIComponent(req.url.split('?')[0]));fs.readFile(p,(e,d)=>{if(e){res.writeHead(404);return res.end()}res.writeHead(200,{'Content-Type':types[path.extname(p)]||'application/octet-stream'});res.end(d)})}).listen(0);
 (async()=>{
  const port=srv.address().port;
