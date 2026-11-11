@@ -47,3 +47,17 @@ Seçilmiş kadrları (hook, orta, CTA) PNG kimi aç və bax: mətn kəsilməsin/
 ## 6. Növbəyə qoy
 `python3 paylasim/hazirla.py --brend yg|ab --tarix <bu gün> --slot 19:00 --nov reel --src final.mp4 --caption-file cap.txt`
 Rəvana önizləməni SendUserFile ilə göndər ("19:00-da paylaşılacaq, dayandırmaq üçün yaz: dayandır YG 19:00").
+
+## 7. Hazır qovluğa köçür (MƏCBURİ — növbəyə qoydukdan sonra)
+Hər tamamlanan video növbəyə qoyulduqdan sonra hazır qovluğa da köçürülür:
+- **YENƏGƏL:** `video/yg/hazir/<TARIX>-reel.mp4`, `<TARIX>-cap.txt`, `<TARIX>-metn.txt`
+- **AsanBiznesim:** `video/ab/Hazır videolar/<TARIX>-reel.mp4`, `<TARIX>-cap.txt`, `<TARIX>-metn.txt`
+  - `<TARIX>` = layihə adındakı tarix+hərf, məs. `2026-11-11` (bir gündə birdən çox olsa: `2026-11-10b`, `2026-11-10c` və s.)
+  - `final.mp4` → `<TARIX>-reel.mp4`, `cap.txt` → `<TARIX>-cap.txt`, `video/metnler/<brend>/<TARIX>.txt` → `<TARIX>-metn.txt`
+  - Köçürdükdən sonra `git add video/yg/hazir/ "video/ab/Hazır videolar/"` və öncəki commit-ə əlavə et (və ya yeni commit).
+Nümunə (YG üçün):
+```bash
+cp video/yg/projeler/yg-<TARIX>/final.mp4  video/yg/hazir/<TARIX>-reel.mp4
+cp video/yg/projeler/yg-<TARIX>/cap.txt    video/yg/hazir/<TARIX>-cap.txt
+cp video/metnler/yg/<TARIX>.txt            video/yg/hazir/<TARIX>-metn.txt
+```
