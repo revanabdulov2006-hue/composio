@@ -1,0 +1,8 @@
+[
+{"prompt":"photorealistic cozy specialty coffee shop interior in Baku, warm amber evening lighting, wooden counter, espresso machine, shallow depth of field, cinematic, no text, no logos, no people","out":"img/yg/2026-11-11/kafe.png","aspect":"9:16"},
+{"prompt":"photorealistic modern restaurant interior, warm candle lighting, terracotta and cream tones, tables set, shallow depth of field, cinematic, no text, no logos, no people","out":"img/yg/2026-11-11/restoran.png","aspect":"9:16"},
+{"prompt":"photorealistic stylish barbershop interior, warm lighting, leather barber chair, mirror, cream and terracotta tones, cinematic, no text, no logos, no people","out":"img/yg/2026-11-11/berber.png","aspect":"9:16"},
+{"prompt":"photorealistic close-up of a hand holding a smartphone near a small round wooden NFC stamp reader on a cafe counter, warm lighting, blurred background, no text, no logos","out":"img/yg/2026-11-11/tap.png","aspect":"9:16"},
+{"prompt":"amber light leak overlay, terracotta tones, warm glow particles, black background","out":"img/yg/2026-11-11/leak.png","aspect":"9:16"},
+{"prompt":"abstract warm background, cream amber palette #fbf8f2, soft gradient, subtle paper texture, no text, no people","out":"img/yg/2026-11-11/krem.png","aspect":"9:16"}
+]
