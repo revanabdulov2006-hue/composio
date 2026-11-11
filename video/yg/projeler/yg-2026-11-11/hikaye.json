@@ -1,0 +1,66 @@
+{
+"baslik": "x",
+"vurgu": "#e8703a",
+"cumleler": [
+{
+"metin": "Müştərin sənin kafen üçün tətbiq yükləməyəcək.",
+"plan": "hook",
+"altyazi": false
+},
+{
+"metin": "Telefonunda onsuz da onlarla tətbiq var, vaxtı isə yoxdur.",
+"plan": "dolu",
+"altyazi": false
+},
+{
+"metin": "Hər yerdə yeni qeydiyyat, yeni parol, yeni kart.",
+"plan": "qeyd",
+"altyazi": false
+},
+{
+"metin": "Ona görə heç birinə qoşulmur, sənin bonusların da kimsəsiz qalır.",
+"plan": "kims",
+"altyazi": false
+},
+{
+"metin": "Biz bunu başqa cür qurduq.",
+"plan": "kopru",
+"altyazi": false
+},
+{
+"metin": "Yenə gəl ilə müştəri kassada telefonunu möhürə toxundurur.",
+"plan": "mohur",
+"altyazi": false
+},
+{
+"metin": "Kart telefonuna əlavə olunur, heç nə yükləmədən.",
+"plan": "elave",
+"altyazi": false
+},
+{
+"metin": "İstəsə, QR kodu skan edərək də qoşula bilər.",
+"plan": "qr",
+"altyazi": false
+},
+{
+"metin": "Ən maraqlısı isə şəbəkədir.",
+"plan": "sebeke",
+"altyazi": false
+},
+{
+"metin": "Başqa Yenə gəl kafesində kartı olan müştəri səni də görür, yenidən qeydiyyatsız.",
+"plan": "gorur",
+"altyazi": false
+},
+{
+"metin": "Kafe, restoran, bərbər, hamısı bir yerdə.",
+"plan": "hamisi",
+"altyazi": false
+},
+{
+"metin": "Kafen üçün istəyirsənsə, şərhlərə kart yaz.",
+"plan": "cta",
+"altyazi": false
+}
+]
+}
