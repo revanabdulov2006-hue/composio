@@ -37,7 +37,7 @@ Rəy: "çox sadə, standart effektlər, eyni görüntü, eyni arxa fon, eyni yaz
 - Hər kadr 1080x1920, 30 fps, libx264 crf17 (veryfast).
 
 ## 4. Miks
-`python3 video/mix.py --video vid.mp4 --voice vo.wav --music video/yg/a/arxa-01.mp3 --cues cues.json --out final.mp4 --music-db -10` (YG −10, AB −3 daha yüksək musiqi).
+`python3 video/mix.py --video vid.mp4 --voice vo.wav --music video/yg/a/arxa-01.mp3 --cues cues.json --out final.mp4 --music-db -5` (YG −5, AB −3 daha yüksək musiqi).
 cues.json = `[{"t":1.25,"file":"video/yg/sfx/pop-331049.mp3","db":-6}, ...]` (keçid/ekran hadisələrinə SFX).
 SFX: `video/yg/sfx/`. Musiqi: `video/yg/a/arxa-01.mp3`, `arxa-04.mp3`.
 
