@@ -134,6 +134,12 @@ def generate(model, meth, prompt, aspect):
     return None, " | ".join(errs[:3])
 
 
+def is_quota_error(note):
+    """429 / RESOURCE_EXHAUSTED / 'quota' -> Gemini free-tier kvotasi bitib."""
+    low = (note or "").lower()
+    return "429" in low or "resource_exhausted" in low or "quota" in low
+
+
 def main():
     jobs_raw = os.environ.get("JOBS", "").strip()
     jobs_file = os.environ.get("JOBS_FILE", "").strip()
@@ -159,7 +165,7 @@ def main():
         print("JOBS empty -> only wrote img/models.json")
         return
     jobs = json.loads(jobs_raw)
-    ok, fail = 0, []
+    ok, fail, quota_fail = 0, [], []
     for j in jobs:
         outp = j["out"]
         os.makedirs(os.path.dirname(outp) or ".", exist_ok=True)
@@ -167,11 +173,30 @@ def main():
         if data is None:
             print("FAIL", outp, "->", note)
             fail.append(outp)
+            if is_quota_error(note):
+                quota_fail.append(outp)
             continue
         open(outp, "wb").write(data)
         print("OK", outp, len(data), "bytes", "(%s)" % note)
         ok += 1
-    print("done: %d ok, %d failed" % (ok, len(fail)))
+    print("done: %d ok, %d failed (%d quota)" % (ok, len(fail), len(quota_fail)))
+    if fail and len(quota_fail) == len(fail):
+        # Butun ugursuzluqlar Gemini kvotasi bitdiyi ucundur (HTTP 429).
+        # Workflow-u "fail" statusu ile bitirib render zencirini dayandirmaq
+        # yerine, aydin bir isare qoyub sifir exit kodu ile cixiriq ki,
+        # sonraki render merhelesi bunu oxuyub sekilsiz davam ede bilsin.
+        marker = "img/QUOTA_EXCEEDED"
+        with open(marker, "w", encoding="utf-8") as f:
+            f.write("Gemini kvotasi bitib (HTTP 429). Ugursuz sekiller: "
+                    + ", ".join(fail) + "\n")
+        gh_out = os.environ.get("GITHUB_OUTPUT", "")
+        if gh_out:
+            with open(gh_out, "a", encoding="utf-8") as f:
+                f.write("quota_exceeded=true\n")
+        print("KVOTA_BITIB: %d sekil kvota sebebi ile alinmadi, bu %s "
+              "faylinda qeyd olundu. Script success (0) ile cixir ki, "
+              "workflow fail olmasin." % (len(fail), marker))
+        return
     if fail:
         sys.exit("failed: " + ", ".join(fail))
 
