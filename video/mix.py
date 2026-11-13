@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Video + ses qarisdirma.
-python3 mix.py --video vid.mp4 --voice vo.wav --music a/arxa-01.mp3 --cues cues.json --out final.mp4 [--music-db -5] [--ratio 2]
+python3 mix.py --video vid.mp4 --voice vo.wav --music a/arxa-01.mp3 --cues cues.json --out final.mp4 [--music-db -3] [--ratio 2]
 cues.json: [{"t": 1.25, "file": "sfx/pop-331049.mp3", "db": -6}, ...]   (t saniye, db ixtiyari)
-Ses: danis loudnorm -16 LUFS; musiqi loudnorm -24 LUFS + music-db (YG: -5, AB: -3); sidechain ducking;
+Ses: danis loudnorm -16 LUFS; musiqi loudnorm -24 LUFS + music-db (YG: -3, AB: -3); sidechain ducking;
 SFX adelay ile yerlesdirilir; limiter 0.89; AAC 192k.
 """
 import argparse, json, subprocess, sys
@@ -11,7 +11,7 @@ p = argparse.ArgumentParser()
 p.add_argument("--video", required=True); p.add_argument("--voice", required=True)
 p.add_argument("--music", required=True); p.add_argument("--cues", required=True)
 p.add_argument("--out", required=True)
-p.add_argument("--music-db", type=float, default=-5.0)
+p.add_argument("--music-db", type=float, default=-3.0)
 p.add_argument("--ratio", type=float, default=2.5)
 a = p.parse_args()
 cues = json.load(open(a.cues, encoding="utf-8"))
