@@ -281,6 +281,14 @@
   ]
  },
  {
+  "name": "models/gemini-4-hydrogen",
+  "methods": [
+   "generateContent",
+   "countTokens",
+   "batchGenerateContent"
+  ]
+ },
+ {
   "name": "models/lyria-3-clip-preview",
   "methods": [
    "generateContent",
@@ -477,6 +485,12 @@
   "name": "models/lyria-realtime-exp",
   "methods": [
    "bidiGenerateMusic"
+  ]
+ },
+ {
+  "name": "models/gemini-decision-1",
+  "methods": [
+   "createDecision"
   ]
  }
 ]
