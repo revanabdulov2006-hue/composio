@@ -65,6 +65,32 @@
   "description": "Firm, direct, and commanding voice with a lower-middle pitch. Recommended for authoritative instructions or announcements."
  },
  {
+  "id": "am-et-assistant-1",
+  "type": "prebuilt",
+  "display_name": "Digital Assistant 1",
+  "language_code": "am-ET",
+  "region_code": "ET",
+  "accent": "Amharic",
+  "persona": "Companion & Peer / Digital Assistant",
+  "context": "Conversational / Edu",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Late 20s Smart-home voice assistant from Wollo. Speaks Amharic. Voice is slightly gravelly."
+ },
+ {
+  "id": "am-et-tutor-1",
+  "type": "prebuilt",
+  "display_name": "Tutor 1",
+  "language_code": "am-ET",
+  "region_code": "ET",
+  "accent": "Amharic",
+  "persona": "Educational Tutor",
+  "context": "Conversational / Edu",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Early 50s Private math tutor from Addis Ababa. Speaks Amharic. Voice is smooth and clear."
+ },
+ {
   "id": "aoede",
   "type": "prebuilt",
   "display_name": "Aoede",
@@ -14625,6 +14651,32 @@
   "description": "41-year-old Therapist from Spain. Speaks Castilian Spanish (Castellano). Voice is intimate talkshow."
  },
  {
+  "id": "fa-ir-csagent-1",
+  "type": "prebuilt",
+  "display_name": "Call Center Agent 1",
+  "language_code": "fa-IR",
+  "region_code": "IR",
+  "accent": "Persian",
+  "persona": "Customer Support Agent / Call Center Agent",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Mid 30s Billing support specialist from Isfahan. Speaks Persian. Voice has soft breathy onsets."
+ },
+ {
+  "id": "fa-ir-techagent-1",
+  "type": "prebuilt",
+  "display_name": "Tech Advisor 1",
+  "language_code": "fa-IR",
+  "region_code": "IR",
+  "accent": "Persian",
+  "persona": "Tech Support Agent / Tech Advisor",
+  "context": "Enterprise Agent",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Mid 60s IT help-desk technician from Mashhad. Speaks Persian. Voice is smooth and clear."
+ },
+ {
   "id": "fenrir",
   "type": "prebuilt",
   "display_name": "Fenrir",
@@ -14636,6 +14688,32 @@
   "gender": "male",
   "pitch": "low",
   "description": "Excitable, high-energy, and passionate voice with a lower-middle pitch. Recommended for sports clips or energetic intros."
+ },
+ {
+  "id": "fil-ph-assistant-1",
+  "type": "prebuilt",
+  "display_name": "Digital Assistant 1",
+  "language_code": "fil-PH",
+  "region_code": "PH",
+  "accent": "Tagalog",
+  "persona": "Companion & Peer / Digital Assistant",
+  "context": "Conversational / Edu",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Early 30s Companion from Manila, Metro Manila. Speaks Tagalog. Voice is a clear and warm modal chest voice."
+ },
+ {
+  "id": "fil-ph-assistant-2",
+  "type": "prebuilt",
+  "display_name": "Digital Assistant 2",
+  "language_code": "fil-PH",
+  "region_code": "PH",
+  "accent": "Tagalog",
+  "persona": "Companion & Peer / Digital Assistant",
+  "context": "Conversational / Edu",
+  "gender": "male",
+  "pitch": "high",
+  "description": "Late 20s Smart-home voice assistant from Quezon City, Metro Manila. Speaks Tagalog. Voice is smooth and clear."
  },
  {
   "id": "fr-ca-advisor-1",
@@ -20475,6 +20553,32 @@
   "description": "31-year-old Event Planner from Java, Indonesia. Speaks Javanese. Currently at an appointment. Sounds confident and clear."
  },
  {
+  "id": "kn-in-advisor-1",
+  "type": "prebuilt",
+  "display_name": "Authoritative Advisor 1",
+  "language_code": "kn-IN",
+  "region_code": "IN",
+  "accent": "Kannada",
+  "persona": "High-Trust Advisor / Authoritative Advisor",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "high",
+  "description": "Late 20s Personal finance advisor from Mangaluru / Udupi. Speaks Kannada. Voice is slightly husky."
+ },
+ {
+  "id": "kn-in-tutor-1",
+  "type": "prebuilt",
+  "display_name": "Tutor 1",
+  "language_code": "kn-IN",
+  "region_code": "IN",
+  "accent": "Kannada",
+  "persona": "Educational Tutor",
+  "context": "Conversational / Edu",
+  "gender": "female",
+  "pitch": "low",
+  "description": "Early 50s Language and reading tutor from Bengaluru. Speaks Kannada. Voice has soft breathy onsets."
+ },
+ {
   "id": "ko-kr-advisor-1",
   "type": "prebuilt",
   "display_name": "Authoritative Advisor 1",
@@ -22035,6 +22139,32 @@
   "description": "Youthful, vibrant, and energetic voice with a higher pitch. Recommended for pop culture updates or gaming content."
  },
  {
+  "id": "ml-in-concierge-1",
+  "type": "prebuilt",
+  "display_name": "Concierge 1",
+  "language_code": "ml-IN",
+  "region_code": "IN",
+  "accent": "Malayalam",
+  "persona": "Concierge & EA",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Mid 50s Travel concierge from Kozhikode. Speaks Malayalam. Voice is slightly husky."
+ },
+ {
+  "id": "ml-in-podcaster-1",
+  "type": "prebuilt",
+  "display_name": "Podcaster 1",
+  "language_code": "ml-IN",
+  "region_code": "IN",
+  "accent": "Malayalam",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Late 30s Podcast host from Kozhikode. Speaks Malayalam. Voice is smooth and clear."
+ },
+ {
   "id": "mr-in-assistant-1",
   "type": "prebuilt",
   "display_name": "Digital Assistant 1",
@@ -22059,6 +22189,58 @@
   "gender": "male",
   "pitch": "low",
   "description": "Adult Parent from Maharashtra, India. Speaks Marathi. Voice is laid-back, encouraging, and chill."
+ },
+ {
+  "id": "ms-my-advisor-1",
+  "type": "prebuilt",
+  "display_name": "Authoritative Advisor 1",
+  "language_code": "ms-MY",
+  "region_code": "MY",
+  "accent": "Malay",
+  "persona": "High-Trust Advisor / Authoritative Advisor",
+  "context": "Enterprise Agent",
+  "gender": "female",
+  "pitch": "low",
+  "description": "Mid 30s Career advisor from Penang / Alor Setar. Speaks Malay. Voice has soft breathy onsets."
+ },
+ {
+  "id": "ms-my-concierge-1",
+  "type": "prebuilt",
+  "display_name": "Concierge 1",
+  "language_code": "ms-MY",
+  "region_code": "MY",
+  "accent": "Malay",
+  "persona": "Concierge & EA",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Late 30s Travel concierge from Kuching / Kota Kinabalu. Speaks Malay. Voice has soft breathy onsets."
+ },
+ {
+  "id": "ne-np-podcaster-1",
+  "type": "prebuilt",
+  "display_name": "Podcaster 1",
+  "language_code": "ne-NP",
+  "region_code": "NP",
+  "accent": "Nepali",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Late 20s Podcast host from Nepalgunj / Surkhet. Speaks Nepali. Voice is smooth and clear."
+ },
+ {
+  "id": "ne-np-podcaster-2",
+  "type": "prebuilt",
+  "display_name": "Podcaster 2",
+  "language_code": "ne-NP",
+  "region_code": "NP",
+  "accent": "Nepali",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Mid 60s Local radio news reader from Kathmandu Valley. Speaks Nepali. Voice is rich and resonant."
  },
  {
   "id": "nl-nl-advisor-1",
@@ -22501,6 +22683,32 @@
   "gender": "male",
   "pitch": "low",
   "description": "Firm, serious, and no-nonsense voice with a lower-middle pitch. Recommended for project reports or safety readouts."
+ },
+ {
+  "id": "pa-in-concierge-1",
+  "type": "prebuilt",
+  "display_name": "Concierge 1",
+  "language_code": "pa-IN",
+  "region_code": "IN",
+  "accent": "Punjabi",
+  "persona": "Concierge & EA",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "medium",
+  "description": "Early 30s City and culture guide from Chandigarh / Mohali. Speaks Punjabi. Voice is smooth and clear."
+ },
+ {
+  "id": "pa-in-storyteller-1",
+  "type": "prebuilt",
+  "display_name": "Storyteller 1",
+  "language_code": "pa-IN",
+  "region_code": "IN",
+  "accent": "Punjabi",
+  "persona": "Storyteller & Narrator",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Mid 30s Family and heritage storyteller from Patiala. Speaks Punjabi. Voice is rich and resonant."
  },
  {
   "id": "pl-pl-advisor-1",
@@ -25480,6 +25688,32 @@
   "description": "Informative and measured voice with a medium pitch. Recommended for history lectures or audiobooks."
  },
  {
+  "id": "ro-ro-podcaster-1",
+  "type": "prebuilt",
+  "display_name": "Podcaster 1",
+  "language_code": "ro-RO",
+  "region_code": "RO",
+  "accent": "Romanian",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Early 60s Community TV news presenter from Chișinău. Speaks Romanian. Voice is rich and resonant."
+ },
+ {
+  "id": "ro-ro-podcaster-2",
+  "type": "prebuilt",
+  "display_name": "Podcaster 2",
+  "language_code": "ro-RO",
+  "region_code": "RO",
+  "accent": "Romanian",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "male",
+  "pitch": "high",
+  "description": "Late 20s Local radio news reader from Bucharest. Speaks Romanian. Voice is smooth and clear."
+ },
+ {
   "id": "ru-ru-concierge-1",
   "type": "prebuilt",
   "display_name": "Concierge 1",
@@ -26858,6 +27092,32 @@
   "description": "53-year-old Professor from Andhra Pradesh, India. Speaks Telugu. Voice is light, airy, and precise"
  },
  {
+  "id": "th-th-podcaster-1",
+  "type": "prebuilt",
+  "display_name": "Podcaster 1",
+  "language_code": "th-TH",
+  "region_code": "TH",
+  "accent": "Thai",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "low",
+  "description": "Mid 60s Podcast host from Chonburi / Eastern Seaboard. Speaks Thai. Voice is slightly husky."
+ },
+ {
+  "id": "th-th-storyteller-1",
+  "type": "prebuilt",
+  "display_name": "Storyteller 1",
+  "language_code": "th-TH",
+  "region_code": "TH",
+  "accent": "Thai",
+  "persona": "Storyteller & Narrator",
+  "context": "Content & Media",
+  "gender": "male",
+  "pitch": "high",
+  "description": "Mid 40s Family storyteller from Bangkok. Speaks Thai. Voice is bright and crisp."
+ },
+ {
   "id": "tr-tr-storyteller-1",
   "type": "prebuilt",
   "display_name": "Storyteller 1",
@@ -26884,6 +27144,32 @@
   "description": "52-year-old Tutor from Turkey. Speaks Turkish. Voice is energetic, warm, and engaging."
  },
  {
+  "id": "uk-ua-advisor-1",
+  "type": "prebuilt",
+  "display_name": "Authoritative Advisor 1",
+  "language_code": "uk-UA",
+  "region_code": "UA",
+  "accent": "Ukrainian",
+  "persona": "High-Trust Advisor / Authoritative Advisor",
+  "context": "Enterprise Agent",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Early 50s Career advisor from Lviv. Speaks Ukrainian. Voice is slightly husky."
+ },
+ {
+  "id": "uk-ua-advisor-2",
+  "type": "prebuilt",
+  "display_name": "Authoritative Advisor 2",
+  "language_code": "uk-UA",
+  "region_code": "UA",
+  "accent": "Ukrainian",
+  "persona": "High-Trust Advisor / Authoritative Advisor",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Mid 30s Personal finance advisor from Lviv. Speaks Ukrainian. Voice is slightly gravelly."
+ },
+ {
   "id": "umbriel",
   "type": "prebuilt",
   "display_name": "Umbriel",
@@ -26895,6 +27181,32 @@
   "gender": "male",
   "pitch": "low",
   "description": "Easy-going, laid-back, and casual voice with a lower-middle pitch. Recommended for reviews or casual explainers."
+ },
+ {
+  "id": "ur-pk-podcaster-1",
+  "type": "prebuilt",
+  "display_name": "Podcaster 1",
+  "language_code": "ur-PK",
+  "region_code": "PK",
+  "accent": "Urdu",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "male",
+  "pitch": "high",
+  "description": "Mid 50s Local radio news reader from Karachi. Speaks Urdu. Voice has a touch of natural vocal fry at phrase ends."
+ },
+ {
+  "id": "ur-pk-tutor-1",
+  "type": "prebuilt",
+  "display_name": "Tutor 1",
+  "language_code": "ur-PK",
+  "region_code": "PK",
+  "accent": "Urdu",
+  "persona": "Educational Tutor",
+  "context": "Conversational / Edu",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Late 30s Language and reading tutor from Lahore. Speaks Urdu. Voice has soft breathy onsets."
  },
  {
   "id": "vi-vn-advisor-1",
@@ -27428,6 +27740,32 @@
   "gender": "female",
   "pitch": "medium",
   "description": "Gentle, mild, and calming voice with a medium pitch. Recommended for kids content or meditation videos."
+ },
+ {
+  "id": "yue-hk-advisor-1",
+  "type": "prebuilt",
+  "display_name": "Authoritative Advisor 1",
+  "language_code": "yue-HK",
+  "region_code": "HK",
+  "accent": "Cantonese",
+  "persona": "High-Trust Advisor / Authoritative Advisor",
+  "context": "Enterprise Agent",
+  "gender": "female",
+  "pitch": "high",
+  "description": "Early 50s Career advisor from Guangzhou. Speaks Cantonese. Voice is rich and resonant."
+ },
+ {
+  "id": "yue-hk-concierge-1",
+  "type": "prebuilt",
+  "display_name": "Concierge 1",
+  "language_code": "yue-HK",
+  "region_code": "HK",
+  "accent": "Cantonese",
+  "persona": "Concierge & EA",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "high",
+  "description": "Mid 50s Hotel front-desk concierge from Macau. Speaks Cantonese. Voice is smooth and clear."
  },
  {
   "id": "zephyr",
