@@ -1924,6 +1924,32 @@
   "description": "41-year-old Nutritionist from the Czech Republic. Speaks Czech. Currently at a meditation retreat. Sounds confident and clear."
  },
  {
+  "id": "de-ch-podcaster-1",
+  "type": "prebuilt",
+  "display_name": "Podcaster 1",
+  "language_code": "de-CH",
+  "region_code": "CH",
+  "accent": "Swiss German",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "low",
+  "description": "Early 50s Culinary and regional lifestyle columnist from Chur, Switzerland. Speaks Swiss High German. Voice is clear, crisp, and full-voiced."
+ },
+ {
+  "id": "de-ch-podcaster-2",
+  "type": "prebuilt",
+  "display_name": "Podcaster 2",
+  "language_code": "de-CH",
+  "region_code": "CH",
+  "accent": "Swiss German",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "male",
+  "pitch": "medium",
+  "description": "Mid 30s Literary podcast host and reviewer from Luzern, Switzerland. Speaks Swiss High German. Voice is clear, crisp, and full-voiced."
+ },
+ {
   "id": "de-de-advisor-1",
   "type": "prebuilt",
   "display_name": "Authoritative Advisor 1",
@@ -13416,6 +13442,19 @@
   "description": "42-year-old Sibling from Argentina. Speaks Argentine Spanish. Currently in a bookstore. Sounds confident and clear."
  },
  {
+  "id": "es-419-assistant-13",
+  "type": "prebuilt",
+  "display_name": "Digital Assistant 13",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "Peru Spanish",
+  "persona": "Companion & Peer / Digital Assistant",
+  "context": "Conversational / Edu",
+  "gender": "female",
+  "pitch": "low",
+  "description": "Late 40s Friendly local community organizer from Ica, Peru. Speaks Peruvian Spanish. Voice has gentle natural warmth."
+ },
+ {
   "id": "es-419-assistant-2",
   "type": "prebuilt",
   "display_name": "Digital Assistant 2",
@@ -13661,6 +13700,19 @@
   "gender": "neutral",
   "pitch": "low",
   "description": "34-year-old Executive Assistant from Argentina. Speaks Argentine Spanish. Currently sitting on couch. Voice is warm and engaging."
+ },
+ {
+  "id": "es-419-concierge-12",
+  "type": "prebuilt",
+  "display_name": "Concierge 12",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "United States Spanish",
+  "persona": "Concierge & EA",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Late 30s Urban architecture and walking-tour host from New York City, New York. Speaks US Spanish. Voice is steady and natural."
  },
  {
   "id": "es-419-concierge-2",
@@ -13910,6 +13962,58 @@
   "description": "31-year-old Podcast Interviewer from Argentina. Speaks Argentine Spanish. Currently on the phone. Sounds confident and clear."
  },
  {
+  "id": "es-419-podcaster-13",
+  "type": "prebuilt",
+  "display_name": "Podcaster 13",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "Colombia Spanish",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Mid 30s Arts and culture correspondent from Bucaramanga, Colombia. Speaks Colombian Spanish. Voice is soft-edged and relaxed."
+ },
+ {
+  "id": "es-419-podcaster-14",
+  "type": "prebuilt",
+  "display_name": "Podcaster 14",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "Peru Spanish",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "male",
+  "pitch": "high",
+  "description": "Mid 20s Evening news summary presenter from Lima, Peru. Speaks Peruvian Spanish. Voice is smooth and natural."
+ },
+ {
+  "id": "es-419-podcaster-15",
+  "type": "prebuilt",
+  "display_name": "Podcaster 15",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "United States Spanish",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "medium",
+  "description": "Early 30s Science and technology journalist from Houston, Texas. Speaks US Spanish. Voice is warm and resonant."
+ },
+ {
+  "id": "es-419-podcaster-16",
+  "type": "prebuilt",
+  "display_name": "Podcaster 16",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "Uruguay Spanish",
+  "persona": "News & Podcast Host / Podcaster",
+  "context": "Content & Media",
+  "gender": "female",
+  "pitch": "high",
+  "description": "Mid 20s Morning news briefing host from Montevideo, Uruguay. Speaks Uruguayan Spanish. Voice is smooth and clear."
+ },
+ {
   "id": "es-419-podcaster-2",
   "type": "prebuilt",
   "display_name": "Podcaster 2",
@@ -14038,6 +14142,32 @@
   "gender": "male",
   "pitch": "low",
   "description": "39-year-old Architect from Argentina. Speaks Argentine Spanish. Currently on the phone. Sounds confident and clear."
+ },
+ {
+  "id": "es-419-techagent-13",
+  "type": "prebuilt",
+  "display_name": "Tech Advisor 13",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "Colombia Spanish",
+  "persona": "Tech Support Agent / Tech Advisor",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Early 40s Digital literacy and consumer tech host from Pereira, Colombia. Speaks Colombian Spanish. Voice is warm and clear."
+ },
+ {
+  "id": "es-419-techagent-14",
+  "type": "prebuilt",
+  "display_name": "Tech Advisor 14",
+  "language_code": "es-419",
+  "region_code": "419",
+  "accent": "Uruguay Spanish",
+  "persona": "Tech Support Agent / Tech Advisor",
+  "context": "Enterprise Agent",
+  "gender": "male",
+  "pitch": "low",
+  "description": "Early 40s Digital literacy and consumer tech host from Canelones, Uruguay. Speaks Uruguayan Spanish. Voice is warm and clear."
  },
  {
   "id": "es-419-techagent-2",
